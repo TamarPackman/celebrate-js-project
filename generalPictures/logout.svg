@@ -1,0 +1,16 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logout">
+<path id="Rectangle 428" d="M39 2H11C6.02944 2 2 6.02944 2 11V45C2 49.9706 6.02944 54 11 54H39" stroke="url(#paint0_linear_652_1924)" stroke-width="3" stroke-linecap="round"/>
+<path id="Arrow 1" d="M55.0607 28.0607C55.6464 27.4749 55.6464 26.5251 55.0607 25.9393L45.5147 16.3934C44.9289 15.8076 43.9792 15.8076 43.3934 16.3934C42.8076 16.9792 42.8076 17.9289 43.3934 18.5147L51.8787 27L43.3934 35.4853C42.8076 36.0711 42.8076 37.0208 43.3934 37.6066C43.9792 38.1924 44.9289 38.1924 45.5147 37.6066L55.0607 28.0607ZM15 28.5H54V25.5H15V28.5Z" fill="url(#paint1_linear_652_1924)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_652_1924" x1="2" y1="28" x2="39" y2="28" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BE5CB6"/>
+<stop offset="1" stop-color="#211636"/>
+</linearGradient>
+<linearGradient id="paint1_linear_652_1924" x1="15" y1="27.5" x2="54" y2="27.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BE5CB6"/>
+<stop offset="1" stop-color="#211636"/>
+</linearGradient>
+</defs>
+</svg>

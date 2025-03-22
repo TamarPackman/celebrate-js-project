@@ -1,0 +1,317 @@
+#eventPlanningBackround {
+    position: absolute;
+    bottom: 60;
+    width: 100%;
+    height: 80%;
+    /* קצרתי את התמונה במעט בתחתית */
+    z-index: -99999 !important;
+    display: block;
+    object-fit: cover;
+    /* מאפשר לחתוך את התמונה בהתאם לגובה */
+    clip-path: inset(0 0 4% 0);
+    filter: brightness(0.7);
+    /* מוסיף טשטוש שחור בתחתית התמונה */
+    top: 15%;
+
+
+}
+
+.card {
+    margin-bottom: 30%;
+    position: relative;
+    z-index: 999 !important;
+    margin-top: -21.7%;
+    /* תיקן את המרווח התחתון של הקטגוריה */
+    margin-right: 46%;
+    /* שיניתי מעט את המרווח של הקטגוריה */
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1 / 1;
+    width: clamp(50px, 50%, 140px);
+    /* הקטנתי את הרוחב של הקטגוריה קצת */
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 20px -10px var(--e-global-color-primary, #B668A1);
+    align-items: center;
+    justify-content: center;
+    color: var(--e-global-color-text, #16131F);
+}
+
+.card .number {
+    position: relative;
+    z-index: 9999999 !important;
+    font-size: 53px;
+    /* הקטנתי את גודל הטקסט מעט */
+    color: #b957a4;
+    margin-top: -8%;
+    font-weight: bold;
+    font-family: Almoni ML v5 AAA;
+}
+
+.card .text {
+
+    font-size: 20px;
+    /* הקטנתי את גודל הטקסט מעט */
+    font-family: Almoni ML v5 AAA Medium;
+    color: #1e1e1e;
+    margin-top: -6%;
+
+}
+
+body {
+    margin: 0;
+    background-color: #2e1e47;
+    font-family: Almoni ML v5 AAA Medium;
+    height: 1500px;
+    color: #ffffff;
+
+}
+
+.navbar {
+    position: relative;
+    z-index: 9999 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #231b2e;
+    padding: 29px;
+    /* הקטנתי את גובה הסרגל מעט */
+    border-radius: 25px;
+    box-shadow: 0 0 28px 2px rgba(209, 183, 250, 0.4);
+    margin: 20px auto;
+    width: 85%;
+    /* הקטנתי את רוחב הסרגל מעט */
+    max-width: 1100px;
+    /* הקטנתי את המקסימום רוחב מעט */
+    margin-top: -28.5%;
+}
+
+.navbar-item {
+
+    position: relative;
+    z-index: 99999 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    flex: 1;
+}
+
+.navbar-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 100%;
+    height: 0;
+    background-color: #b668a1;
+    /* שינוי בגובה עם אנימציה חלקה */
+    z-index: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.navbar-item img {
+    max-width: 65px;
+    /* הקטנתי את גודל התמונות מעט */
+    margin-bottom: 10px;
+}
+
+.navbar-item span {
+    color: #fff;
+    font-size: 18px;
+    /* הקטנתי את גודל הטקסט מעט */
+}
+
+.divider {
+    width: 2px;
+    /* נשאר כמו שהיה */
+    height: 107px;
+    /* הקטנתי את גובה הקו המפריד מעט */
+    background-color: #fff;
+    margin: 0 15px;
+}
+
+.navbar-item:hover {
+    background-color: #b668a1;
+
+}
+
+.navbar-item:hover::after {
+    height: 165%;
+    /* גובה הרקע הוורוד במהלך ריחוף */
+    margin-top: -27.5%;
+}
+
+
+.navbar-item img {
+    position: relative;
+    z-index: 1;
+    /* לוודא שהתמונה תהיה מעל הרקע הוורוד */
+    transition: transform 0.3s;
+}
+
+.navbar-item:hover img {
+    transform: scale(1.1);
+
+}
+
+.navbar-item span {
+    position: relative;
+    z-index: 1;
+    /* לוודא שהטקסט יהיה מעל הרקע הוורוד */
+}
+
+#search {
+    display: none !important;
+}
+
+
+.profile-container {
+    position: relative;
+    z-index: 9999 !important;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-picture {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 80%;
+    margin-right: 460%;
+
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    /* מוגדר ל"הסתר" כברירת מחדל */
+}
+
+
+
+#profileText {
+
+    font-size: 200%;
+    font-family: Almoni ML v5 AAA;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 6%;
+    background: linear-gradient(to right, #ff6b81 20%, #8F3F88 40%, #ffffff 60%, #9477a0 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: AnimationName 12s ease-in-out infinite alternate;
+
+}
+
+#profile-imageImg {
+    width: 70%;
+    height: 70%;
+    
+}
+
+.profile-picture i {
+    font-size: 50px;
+    color: #888;
+  
+    /* צבע ברירת המחדל של האייקון */
+    z-index: 999999 !important;
+}
+
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+#timeOfDayContainer {
+  
+    font-family: Almoni ML v5 AAA medium;
+    font-size: 24px;
+    color: #ffffff;
+    background: linear-gradient(to right, #f2a9bc, #855f9b);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto;
+    margin-top: 4%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.time-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#currentDateContainer {
+    font-family: Almoni ML v5 AAA medium;
+    font-size: 23px;
+    color: #ffffff;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#calendarContainer {
+    width: 300px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #b957a4;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.calendar-row {
+    display: flex;
+}
+
+.calendar-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.calendar-cell.today {
+    background-color: #ff4444;
+    color: white;
+    font-weight: bold;
+}
+
+.bubble p{
+    color: white;
+} 
+
+#default-icon{
+
+margin-right: 33%;
+margin-top: 26%;
+}
+
+.modal{
+
+
+    top: -12%;
+}

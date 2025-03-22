@@ -1,0 +1,88 @@
+{
+    "products": [
+        {
+            "code": 70,
+            "catagory": "קייטרינג ",
+            "subCatagory": "קייטרינג בשרי",
+            "name": "רב טוב – קייטרינג",
+            "image": [
+                "/DataPictures/CatringAndBar/רה טוב1.webp",
+                "/DataPictures/CatringAndBar/רב טוב2.webp",
+                "/DataPictures/CatringAndBar/רב טוב3.webp",
+                "/DataPictures/CatringAndBar/רב טוב4.webp"
+            ],
+            "phone": "0552118714",
+            "address":"נווט כל הארץ",
+            "profil": "/DataPictures/CatringAndBar/פרופיל רב טוב.webp",
+            "text":  "",
+            "heart": "<i class='fa fa-heart'></i>",
+              "backgroundPicture":"/DataPictures/CatringAndBar/רב טוב – קייטרינג.jpg"
+        },
+        {
+            "code": 71,
+            "catagory": "קייטרינג ",
+            "subCatagory": "קייטרינג בשרי",
+            "name": "לה קאזה – קייטרינג לאירועים",
+            "image": [
+                "/DataPictures/CatringAndBar/לה קאזה1.jpg",
+                "/DataPictures/CatringAndBar/לה קאזה2.webp",
+                "/DataPictures/CatringAndBar/להקאזה3.webp",
+                "/DataPictures/CatringAndBar/לה קאזה4.webp"
+            ],
+            "phone": "0552118714",
+            "address":"נווט כל הארץ",
+            "profil": "/DataPictures/CatringAndBar/פרופיל לה קאזה.webp",
+            "text":  "אצלנו תמצאו תפריט כשר למהדרין עשיר ומודולארי<br>מנות שף משובחות במגוון סגנונות ובטעמים בינלאומיים.<br><br>אנו מקפידים על חומרי גלם משובחים,<br>בהשגחת הבד”ץ העדה החרדית ובטריות בלתי מתפשרת ובתנאי אחסון וקירור נאותים,<br>שמעלה את האוכל מבית להקאזה לרמה אחרת של איכות וטעם!",
+            "heart": "<i class='fa fa-heart'></i>",
+              "backgroundPicture":"/DataPictures/CatringAndBar/לה קאזה – קייטרינג לאירועים.jpg"
+
+        },
+ {
+            "code": 77,
+            "catagory": "קייטרינג ",
+            "subCatagory": "קייטרינג חלבי",
+            "name": "R.B רחלי בוסקילה – קייטרינג חלבי קינוחים בר מתוקים",
+            "image": [
+                "/DataPictures/CatringAndBar/רחלי בוסקילה1.jpg",
+                "/DataPictures/CatringAndBar/רחלי בוסקילה2.jpg",
+                "/DataPictures/CatringAndBar/רחלי בוסקילה3.jpg",
+                "/DataPictures/CatringAndBar/רחלי בוסקילה4.jpg"
+            ],
+            "phone": " 0552118632",
+            "address":"נווט בני ברק מרכז וירושלים",
+            "profil": "/DataPictures/CatringAndBar/פרופיל רחלי בוסקילה.jpeg",
+            "text":  "אצלנו תמצאו תפריט כשר למהדרין עשיר ומודולארי<br>מנות שף משובחות במגוון סגנונות ובטעמים בינלאומיים.<br><br>אנו מקפידים על חומרי גלם משובחים,<br>בהשגחת הבד”ץ העדה החרדית ובטריות בלתי מתפשרת ובתנאי אחסון וקירור נאותים,<br>שמעלה את האוכל מבית להקאזה לרמה אחרת של איכות וטעם!",
+            "heart": "<i class='fa fa-heart'></i>",
+              "backgroundPicture":"/DataPictures/CatringAndBar/R.B רחלי בוסקילה – קייטרינג חלבי קינוחים בר מתוקים.jpg"
+              
+        }
+        ,
+        {
+            "code": 78,
+            "catagory": "קייטרינג ",
+            "subCatagory": "קייטרינג חלבי",
+            "name": "מלכיס בייקרי – קונדיטוריה, עיצוב והפקות אירועי בוטיק",
+            "image": [
+                "/DataPictures/CatringAndBar/מליכס1.jpeg",
+                "/DataPictures/CatringAndBar/מלכיס2.jpeg",
+                "/DataPictures/CatringAndBar/מלכיס3.jpeg",
+                "/DataPictures/CatringAndBar/מלכיס4.jpeg"
+            ],
+            "phone": "0552118191",
+            "address":"נווט בני ברק מרכז וירושלים",
+            "profil": "/DataPictures/CatringAndBar/מלכיס בייקרי.jpeg",
+            "text": "היי!<br><br>רוצה לחגוג אירוע יוקרתי בסטייל ובטעם?<br>מלכיס בייקרי תכין עבורך את הבר שחלמת עליו!<br>קונדיטוריה, עוגות ויטרינה, פטיפורים, פרלינים, מוסים, עוגות, שכבות, פינגר פוד<br><br>ואת, כשתבואי לאירוע ותראי איך שהחלום התגשם וכל מה שדמיינת פה באולם<br>את תביני שלא רק קיבלת רוגע לפני האירוע ושירות אישי ומכל הלב<br>אלא גם בר בסטייל, בר יוקרתי, יפה, אסטטי, הכי חדשני, איכותי וטעים!<br><br>מתאים לאירוסין, בר/ת מצווה, אירועים עסקיים, ערבי גיבוש, ברית ופדיון הבן.<br><br>רוצה ראש שקט בהפקת האירוע?<br>אני עובדת עם מגוון נותני שירות בשביל שתוכלי להגיע לאירוע ללא שום התעסקות, טירטורי טלפון וזמן!<br><br>להצטרפות לרשימת תפוצה שלי לקבלת: טיפים, טכניקות עבודה, שיתופים, השראות ומתכונים<br>שלחי לי מייל דרך הטופס צור קשר בצד שמאל ואצרף אותך ממש בשמחה!<br>אני מעבירה סדנאות באירועי בת מצווה, ימי הולדת וערבי גיבוש.<br>סדנאות על עיצוב קונדיטוריה ברמה אומנותית. מוזמנות להזמין(:",
+            "heart": "<i class='fa fa-heart'><DataPictures/Cat/i>",
+              "backgroundPicture":"/DataPictures/CatringAndBar/מלכיס בייקרי – קונדיטוריה, עיצוב והפקות אירועי בוטיק.jpeg"
+              
+        }
+
+    ]
+
+
+
+
+
+
+
+}

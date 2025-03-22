@@ -1,0 +1,461 @@
+#headerText h1 {
+    font-family: Almoni ML v5 AAA;
+    margin-top: -20%;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+#headerText h2 {
+    font-family: Almoni ML v5 AAA Light;
+    margin-top: 4px;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#videotext h2 {
+    font-family: Almoni ML v5 AAA;
+    margin-top: 13%;
+    font-size: 55px;
+    color: #16131f;
+    text-align: center !important;
+}
+
+#videotext p {
+    font-family: Almoni ML v5 AAA Medium;
+    text-align: center !important;
+    font-size: 22px;
+    color: #16131f;
+}
+
+#background-video2 {
+    position: absolute;
+    width: 46%;
+    margin-right: 27%;
+
+}
+
+#plan {
+    width: 100%;
+    margin-top: 30%;
+}
+
+#planButton {
+    position: relative;
+    text-align: center;
+    margin-right: 41%;
+    margin-top: 2%;
+    width: 24%;
+    font-size: 22px;
+    height: 35px;
+    color: black;
+    border: none;
+
+    cursor: pointer;
+    transition: opacity 1s ease, transform 0.3s ease;
+}
+
+/* אנימציה כאשר העכבר מעל הכפתור */
+#planButton:hover {
+    transform: scale(1.1);
+    /* הגדלה של הכפתור */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* צל */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 20px;
+    gap: 40px;
+    background-color: #16131f;
+    padding-right: 13%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    direction: rtl !important;
+    margin-top: 3%;
+
+}
+
+.book-section {
+    flex: 1;
+}
+
+.booklet {
+    height: auto;
+    animation: bounce 1s infinite;
+}
+
+.text-section {
+    flex: 2;
+}
+
+.container h1 {
+    font-size: 3em;
+    color: #ffd56c;
+    margin: 0;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    color: #ffd56c;
+    margin: 10px 0;
+}
+
+.container p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.guide-form {
+    margin-top: 20px;
+}
+
+
+
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.checkbox label {
+    color: white;
+    font-size: 0.9em;
+}
+
+.container button {
+    background: linear-gradient(90deg, #7706ff, #b454c7);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
+
+
+
+.guide-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* רווח בין השדות */
+    margin-top: 20px;
+}
+
+
+
+
+
+.guide-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* רווח בין השדות */
+    margin-top: 20px;
+}
+
+.guide-form input[type="text"],
+.guide-form input[type="email"] {
+    width: calc(35% - 10px);
+    /* שמים את השדות באותו רוחב עם רווח */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: white;
+    color: #000;
+    /* צבע הטקסט */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-top-left-radius: 0;
+}
+
+.checkbox {
+    width: 100%;
+    /* תופס את כל רוחב הטופס */
+    margin-top: 10px;
+    /* רווח מעל ה-checkbox */
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    border: none;
+    margin-right: -0.5%;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-top-left-radius: 0;
+    width: 45%;
+}
+
+
+
+.prompt {
+    display: none;
+    /* הסתר את המודאלות בהתחלה */
+    position: fixed;
+    z-index: 1000;
+    /* להבטיח שהמודאל יהיה מעל תוכן הדף */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* לאפשר גלילה אם התוכן גדול מהמסך */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* צבע רקע כהה עם שקיפות */
+}
+
+.promptContent {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    /* רוחב המודאל */
+    text-align: center;
+    border-radius: 10px;
+    /* פינות עגולות */
+}
+
+.success-message {
+    font-size: 1.5em;
+    color: #4CAF50;
+    /* צבע ירוק */
+    margin-top: 10px;
+}
+
+.closeBtn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeBtn:hover {
+
+    cursor: pointer;
+}
+
+.success-gif {
+    width: 10%;
+    height: 100%;
+}
+
+
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.animated-text {
+    overflow: hidden;
+    /* חשוב להוסיף את זה כדי שהטקסט לא יחרוג */
+    position: relative;
+
+    margin-right: 8%;
+}
+
+.animated-text h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 45rem;
+    /* אפשר לשנות לפי הצורך */
+    line-height: 1.1;
+
+
+}
+
+.animated-text span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(90px);
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-text h2 span {
+    display: inline-block;
+}
+
+#planButton {
+    position: relative;
+    text-align: center;
+    margin-right: 41%;
+    margin-top: 2%;
+    width: 18%;
+
+    font-size: 22px;
+    height: 40px;
+
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: opacity 1s ease, transform 0.3s ease;
+    animation: pulse 2s infinite, flash 2s infinite;
+}
+
+/* Animation keyframes for pulse */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        background-color: #f5f5f5;
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        background-color: #e0e0e0;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        background-color: #f5f5f5;
+    }
+}
+
+/* Animation keyframes for flash */
+@keyframes flash {
+
+    0%,
+    100% {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+    }
+}
+
+/* Animation when hovering over the button */
+#planButton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.social-icons image {
+
+    width: 100%;
+
+
+}
+
+.watzapp {
+    z-index: 999;
+    max-width: 60px;
+    position: fixed;
+    top: 92%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    z-index: 999 !important;
+}
+
+@media (max-width: 700px) and (min-width: 390px) {
+    #headerText {
+        margin-top: -200px;
+    }
+
+    h2 {
+        font-size: 25px !important;
+    }
+
+    h1 {
+        font-size: 40px !important
+    }
+
+    .booklet {
+        width: 43% !important;
+        margin-right: 65%;
+        margin-top: -40%;
+
+        margin-bottom: 5%;
+    }
+
+    #videotext {
+        margin-top: 150px;
+    }
+
+    #planButton {
+        font-size: 15px;
+    }
+
+    #background-video2 {
+        width: 100%;
+        margin-right: -2px !important;
+        padding-top: 75px;
+    }
+
+    #res {
+        display: block;
+
+        padding-top: 300px;
+
+    }
+
+    #plan {
+        display: none;
+    }
+
+    .container {
+
+        display: block;
+    }
+}
+
+#res {
+    display: none;
+}

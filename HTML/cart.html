@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>עגלת קניות</title>
+    <link rel="stylesheet" href="/CSS/cart.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/IndexStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <h1 id="guest">שלום אורח</h1>
+    <div id="logo"><a href="./Index.html"><img src="/headerArray/logo.png" alt="" width="265px"></a></div>
+    <header>
+        <button id="login" class="elementor-button-login">התחברות</button>
+        <button id="bag"> <img src="/headerArray/עגלת קניות.png" alt="" width="120px"></button>
+        <div id="burger"><i class="fa fa-bars"></i></div>
+        <nav>
+            <div class="nav-item">
+                <a href="/HTML/about.html">אודותינו</a>
+                <div class="submenu">
+
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">מקום אירוע</a>
+                <div class="submenu">
+                    <a href="#">אולמות חתונה</a>
+                    <a href="#">גני אירועים</a>
+                    <a href="#">קמפוסים</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">טיפוח ויופי</a>
+                <div class="submenu">
+                    <a href="#">שמלות ערב</a>
+                    <a href="#">שמלות כלה</a>
+                    <a href="#">מאפרות</a>
+                    <a href="#">מסרקות</a>
+                    <a href="#">קוסמטיקה</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">מוזיקה</a>
+                <div class="submenu">
+                    <a href="#">DJ לחתונה</a>
+                    <a href="#">זמרים</a>
+                    <a href="#">תזמורת</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">צילום</a>
+                <div class="submenu">
+                    <a href="#">הפקות צילום</a>
+                    <a href="#">צילום וידיאו</a>
+                    <a href="#">צילום סטילס</a>
+                    <a href="#">צילומי בוק</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">קייטרינג ובר</a>
+                <div class="submenu">
+                    <a href="#">קייטרינג בשרי</a>
+                    <a href="#">קייטרינג חלבי</a>
+                    <a href="#">מגשי אירוח</a>
+                    <a href="#">קינוחים/בר מתוקים</a>
+                    <a href="#">יינות ואלכוהול</a>
+                    <a href="#">עיצובי פירות</a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="myModal" class="modal">
+        <div id="modal-content">
+            <span class="close">&times;</span>
+            <form>
+                <header class="head-form">
+                    <h2>התחבר/י למשתמש שלך</h2>
+                    <p>אין לך משתמש? <a id="clickToLogIn" href="#">לחץ/י להרשמה</a></p>
+                </header>
+                <br>
+                <div class="con">
+                    <div class="input-container">
+                        <i class="fa fa-user-circle"></i>
+                        <input type="text" placeholder="שם משתמש" name="siteUserName" required>
+                    </div>
+                    <div class="input-container">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" placeholder="סיסמא" name="password" required>
+                    </div>
+                </div>
+                <button class="elmemtpurple-button">התחברות</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div id="modal2-content">
+            <span class="close">&times;</span>
+            <div id="overlay2">
+                <form>
+                    <header class="head-form">
+                        <h2>הרשמה למשתמש חדש</h2>
+                        <p>פרטי משתמש</p>
+                    </header>
+                    <br>
+                    <div class="con2">
+                        <div class="input-container">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" placeholder="כתובת מייל" name="email" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" placeholder="סיסמא" name="password" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" placeholder="אישור סיסמא" name="passwordVerification" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-user"></i>
+                            <input type="text" placeholder="שם פרטי" name="name" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-users"></i>
+                            <input type="text" placeholder="שם משפחה" name="familyName" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-phone"></i>
+                            <input type="text" placeholder="טלפון" name="phoneNum" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-map-marker"></i>
+                            <input type="text" placeholder="עיר מגורים" name="city" required>
+                        </div>
+                    </div>
+                    <button class="elmemtpurple-button" id="connecting">התחברות</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="cart">
+            <h2 class="animated-word">Wish List</h2>
+            <div class="cart-item">
+            </div>
+        </div>
+        <button id="emptyCartButton" class="elmemtpurple-button">ריקון הסל</button>
+        <p id="textCountBag"></p>
+
+    </main>
+
+    <div id="popup-remove" class="popupg">
+        <div class="popupg-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div class="icon-container">
+                <div class="remove-circle">
+                    <span class="remove-icon">&#128465;&#65039;</span> <!-- אייקון של פח אשפה שונה -->
+                </div>
+            </div>
+            <p class="popupg-text">מוצר זה הוסר מהעגלה</p> <!-- הכיתוב מוגדל -->
+        </div>
+    </div>
+
+    <script src="/JS/cart.js"></script>
+    <script src="/JS/generalJS.js"></script>
+</body>
+
+</html>

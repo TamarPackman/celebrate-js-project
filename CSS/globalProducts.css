@@ -1,0 +1,467 @@
+#globalProducts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+/* עיצוב הכותרת */
+.divProduct h1 {
+    margin: 9px 0;
+    margin-bottom: -2.5%;
+    color: #000000;
+    font-size: 150%
+}
+
+/* עיצוב כפתור "עוד על העסק" */
+.more-info-button {
+    display: inline-block;
+    background-image: linear-gradient(to left, #211636 0%, #8F3F88 51%) !important;
+    box-shadow: 0 4px 6px 0 rgba(30, 14, 57, 0.2) !important;
+    /* צבע סגול של הכפתור */
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 0 0 8px 8px;
+    /* פינות עגלגלות בצדדים התחתונים */
+    cursor: pointer;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    /* חצי מהאורך */
+    box-sizing: border-box;
+}
+
+.more-info-button:hover {
+    background-image: linear-gradient(to left, #8F3F88 0%, #211636 97%) !important;
+    box-shadow: 0 4px 6px 0 rgba(30, 14, 57, 0.2) !important;
+}
+
+.more-info-button::after {
+    background-image: linear-gradient(to left, #8F3F88 0%, #211636 97%) !important;
+    box-shadow: 0 4px 6px 0 rgba(30, 14, 57, 0.2) !important;
+}
+
+/* עיצוב כפתור הלב */
+.heart-button {
+    font-size: 32px;
+    color: #a39494;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.heart-button.active {
+    color: red;
+}
+
+/* עיצוב כפתורים לתמונה */
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    border: none;
+    color: white;
+    font-size: 20px;
+    /* הקטנת הגופן */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.prev-button:hover,
+.next-button:hover {
+    background-color: #555;
+}
+
+#headerPictures {
+    position: absolute;
+    top: -65%;
+    background-image: url('/DataPictures/Halls/image\ \(20\).png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    padding: 15vh 0;
+    /* רווח סביב הטקסט, 10% מגובה המסך */
+    font-size: 3.5vw;
+    /* גודל טקסט בתלות ברוחב המסך */
+    z-index: 1;
+    width: 100%;
+    /* רוחב התמונה 100% מהרוחב של המסך */
+    margin-top: 39.6%;
+}
+
+#headerPictures::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.divProduct {
+    top: 63%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+
+.divProduct:hover {
+
+    top: 61%;
+
+}
+
+/* עיצוב התמונה */
+.divProduct img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.buttonTrash {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 4.9%;
+
+}
+
+/* עיצוב של אייקון הפח */
+.buttonTrash i {
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: -1.8em;
+
+}
+
+.buttonTrash i:hover {
+    font-size: 38px;
+    color: #4e0848;
+}
+
+
+.animated-word {
+
+    background: linear-gradient(to right, #756bff 20%, #8F3F88 40%, #0fbcf9 60%, #ff0000 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 4400% auto;
+    animation: AnimationName 12s ease-in-out infinite alternate;
+}
+
+.search-container {
+    position: absolute !important;
+    margin-top: 462px;
+    margin-left: 7%;
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+footer {
+    position: absolute;
+    background-color: #16131f;
+    width: 100%;
+    height: 270px;
+
+}
+
+/* עיצוב התמונה והפס הסגול */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: right;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.footer-container::before {
+    content: "";
+    position: absolute;
+    top: -15%;
+    left: 4%;
+    width: 90%;
+
+    height: 5px;
+    /* text-decoration-style: dashed; */
+    background: repeating-linear-gradient(to right,
+            transparent,
+            transparent 10px,
+            #000 10px,
+            #000 20px);
+    /* הגדרת צבע הקו ואורכו */
+
+    background-color: #8f3f88;
+
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+
+
+}
+
+.logo img {
+    width: 75%;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 141%;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #deae77;
+    margin: 0;
+}
+
+
+/* עיצוב הכותרות */
+.footer-section h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: white;
+    margin-right: -40%;
+    padding-top: 40px;
+}
+
+/* הסרת הרשימה והפיכת הפריטים לקישורים */
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-right: -40%;
+
+}
+
+#burger {
+    display: none;
+}
+
+/* שינוי צבע הקישורים כאשר עוברות מעליהם */
+.footer-section ul li a:hover {
+    color: #8f3f88;
+    /* צבע סגול כשמעבירים מעל הקישור */
+}
+
+.footer-section ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    /* background-color: #8f3f88; */
+    transition: width 0.3s ease;
+}
+
+.footer-section ul li a:hover::after {
+    width: 100%;
+}
+
+/* עיצוב האיקונים */
+.follow-us h3 {
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -45%;
+
+}
+
+
+.popupg {
+
+    display: none;
+    /* מוסתר כברירת מחדל */
+    position: relative;
+    z-index: 999999999999999999999 !important;
+    position: fixed;
+    left: 0;
+    top: -35%;
+    width: 100%;
+    height: 150%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* צבע רקע כהה עם שקיפות */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* להבטיח שהפופ-אפ יהיה מעל כל אלמנט אחר */
+}
+
+/* תוכן הפופ-אפ */
+.popupg-content {
+    position: relative;
+    z-index: 9999999999999999999999 !important;
+    background: linear-gradient(135deg, #d9534f 0%, #c9302c 100%);
+    /* רקע מעבר צבעים אדום כהה */
+    border-radius: 12px;
+    /* פינות מעוגלות */
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    /* צל רך */
+    width: 80%;
+    max-width: 400px;
+    /* רוחב מקסימלי */
+    animation: fadeIn 0.5s ease;
+    /* אנימציה להופעה */
+    color: white;
+    /* צבע הטקסט לבן */
+    font-family: Almoni ML v5 AAA medium;
+}
+
+
+/* עיגול עם אייקון פח אשפה */
+.remove-circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-icon {
+    font-size: 36px;
+    color: #626262;
+    margin-bottom: -16%;
+    /* צבע אדום לפח אשפה */
+}
+
+
+
+/* הכיתוב */
+.popupg-text {
+    font-size: 22px;
+
+}
+
+/* אנימציה להופעה */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* כפתור סגירה */
+.close-btn {
+    position: absolute;
+    z-index: 9999999999999 !important;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    /* צבע הכפתור */
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 390px) {
+    #headerPictures {
+        top: -30%;
+        padding-top: 140px;
+        padding-bottom: 80px;
+        font-size: 30px;
+    }
+
+    .search-container {
+        margin-top: 200px;
+        margin-bottom: 3% !important;
+
+    }
+
+    #globalProducts {
+        margin-top: -45%;
+    }
+
+    #allBag {
+        margin-top: 40px;
+    }
+}

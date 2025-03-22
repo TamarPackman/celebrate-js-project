@@ -1,0 +1,146 @@
+{
+    "products": [
+        {
+            "code": 39,
+            "catagory": "מוזיקה",
+            "subCatagory": "DJ לחתונה",
+            "name": "דודו בלוקה – תקליטן דיג’יי",
+            "image": [
+                "/DataPictures/music/דודו בלוקה1.jpg",
+                "/DataPictures/music/דודו בלוקה2.jpg",
+                "/DataPictures/music/דודו בלוקה3.jpg"
+            ],
+            "phone": "0552118105",
+            "address":"נווט כל הארץ",
+            "profil": "/DataPictures/music/פרופיל דודו בלוקה.jpg",
+            "text": "שרותי מוזיקה מתקדמים לעולם הדתי מעל 10 שנים.<br>ציוד מקצועי.<br>מוזיקה עדכנית וחדשנית.",
+
+            "heart": "<i class='fa fa-heart'></i>",
+              "backgroundPicture":"/DataPictures/music/דודו בלוקה – תקליטן דיג’יי.jpg"
+        }
+        ,
+        {
+            "code": 40,
+            "catagory": "מוזיקה",
+            "subCatagory": "DJ לחתונה",
+            "name": "אלעד זיני – תקליטן Dj די ג’יי",
+            "image": [
+                "/DataPictures/music/אליעד זרי 1.jpeg",
+                "/DataPictures/music/אליעד זרי2.jpeg"
+            ],
+            "phone": "0552118099",
+            "address":"נווט כל הארץ",
+            "profil": "/DataPictures/music/אלעד זיני פרופיל.jpg",
+            "text": "תקליטן Dj די גיי חרדי לאירועי יוקרה<br>אירוסין<br>חתונות<br>בר מצוות<br>ועוד",
+
+            "heart": "<i class='fa fa-heart'></i>",
+              "backgroundPicture":"/DataPictures/music/אלעד זיני – תקליטן Dj די ג’יי.jpg"
+        }
+,
+{
+    "code": 41,
+    "catagory": "מוזיקה",
+    "subCatagory": "זמרים",
+    "name": "שלמה ברונר – תזמורת וזמר לאירועים",
+    "image": [
+        "/DataPictures/music/שלמה ברונר3.jpg",
+        "/DataPictures/music/שלמה ברונר2.png",
+        "/DataPictures/music/שלמה ברונר1.webp",
+        "/DataPictures/music/שלמה ברונר4.jpg"
+    ],
+    "phone": "0552118656",
+    "address":"נווט כל הארץ",
+    "profil": "/DataPictures/music/שלומה ברונר.png",
+    "text": "שלמה ברונר, בן לאחת המשפחות המפורסמות במוזיקה החסידית,<br>מוזיקאי, זמר, יוצר ומפיק,<br><br>שלמה ברונר והתזמורת הם בעלי ניסיון עשיר ומופיעים מזה שנים באירועים נבחרים של חתונות, הופעות, הכנסת ס”ת ואירועי קודש, שמחת בית השואבה, בר מצווה ועוד..<br><br>ניתן להזמין את התזמורת החל מנגן אחד ועד למספר רב של נגנים לפי בקשת הלקוח.<br>כמו כן ניתן לשלב הופעה לחופה או קבלת פנים בליווי פסנתר כנף לבן.",
+
+    "heart": "<i class='fa fa-heart'></i>",
+      "backgroundPicture":"/DataPictures/music/שלמה ברונר – תזמורת וזמר לאירועים.jpeg"
+}
+,
+{
+    "code": 42,
+    "catagory": "מוזיקה",
+    "subCatagory": "זמרים",
+    "name": "דודי משי – זמר חתונות ואירועים",
+    "image": [
+        "/DataPictures/music/דודי משי1.jpeg",
+        "/DataPictures/music/דודי משי2.jpeg",
+        "/DataPictures/music/דודי משי3.jpeg"
+    ],
+    "phone": "0552117640",
+    "address":"נווט כל הארץ",
+    "profil": "/DataPictures/music/דודי משי.jpeg",
+    "text": "אנחנו עמלים ימים ולילות להביא לכם אירוע מושלם של פעם בחיים<br>אם זה חתונות . אירוסין . כניסות מיוחדות לחתן בר מצווה<br><br>ניתן להזמין עם הלהקה . ניתן להזמין רק עם קלידן . אפשרות לתקליטיה די ג’י…<br><br>אירועים יצירתיים . . זיצ’ים<br><br>שנתראה בשמחות",
+
+    "heart": "<i class='fa fa-heart'></i>",
+      "backgroundPicture":"/DataPictures/music/דודי משי – זמר חתונות ואירועים.jpeg"
+}
+,
+{
+    "code": 43,
+    "catagory": "מוזיקה",
+    "subCatagory": "זמרים",
+    "name": "מאיר בס – קלידן וזמר לאירועים",
+    "image": [
+        "/DataPictures/music/מאיר בס – קלידן וזמר לאירועים.png"
+    ],
+    "phone": "0552118096",
+    "address":"נווט כל הארץ",
+    "profil": "/DataPictures/music/פרופיל מאיר בס.png",
+    "text": "קלידן וזמר לאירועים בסגנון חסידי ישיבתי.<br>שר ומנגן בקלידים בליווי מערכת הגברה מקצועית מרקיד ולא מ ר ע י ש ! !<br><br>עם נסיון של יותר מ 10 שנים בתחום המוסיקה.<br><br>לאירועים בירושלים ביתר והסביבה."
+,
+
+    "heart": "<i class='fa fa-heart'></i>",
+      "backgroundPicture":"/DataPictures/music/מאיר בס – קלידן וזמר לאירועים.jpg"
+},
+{
+    "code": 44,
+    "catagory": "מוזיקה",
+    "subCatagory": "תזמורת",
+    "name": "שרגא פראנק – קלרינט לאירועים",
+    "image": [
+        "/DataPictures/music/שרגא פראנק1.jpeg",
+        "/DataPictures/music/שרגא פראנק2.jpeg"
+    ],
+    "phone": " 0552118612",
+    "address":"נווט כל הארץ",
+    "profil": "/DataPictures/music/פרופיל שרגא פראנק.jpg",
+    "text": "שרגא פראנק נגן קלרינט באווירת ניגוני כליזמר חסידי.<br><br>לחופה חתונות ולכל שמחה משפחתית.<br><br>אפשרות להרכב מוזיקלי מהשורה הראשונה!",
+
+
+    "heart": "<i class='fa fa-heart'></i>",
+      "backgroundPicture":"/DataPictures/music/שרגא פראנק – קלרינט לאירועים.jpeg"
+}
+,{
+    "code": 45,
+    "catagory": "מוזיקה",
+    "subCatagory": "תזמורת",
+    "name": "אחותי כלה – תזמורת נשים בנגינה על יד הכלה",
+    "image": [
+        "/DataPictures/music/אחותי כלה1.jpg"
+    ],
+    "phone": "0552118651",
+    "address":"נווט כל הארץ",
+    "profil": "/DataPictures/music/אחותי כלה פרופיל.jpg",
+    "text":"שדרוג חדשני, ייחודי ומרומם<br><br>—הראשון והיחיד מסוגו—<br>“אחותי כלה”<br>תזמורת נשים (האחיות שאו) בנגינה על יד הכלה בזמן קבלת פנים.<br>מנגינת חתונה שעדיין לא שמעתם!<br><br>להתרגש בשמחות,<br><br>מלכה כהנא",
+
+
+    "heart": "<i class='fa fa-heart'></i>",
+      "backgroundPicture":"/DataPictures/music/אחותי כלה – תזמורת נשים בנגינה על יד הכלה .jpeg"
+}
+
+
+
+
+
+
+    ]
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,507 @@
+{
+    "products": [
+        {
+            "code": 25,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מאפרות",
+            "name": "אפרת לובשיץ-מאפרת כלות וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/אפרת לובשיץ1.jpeg",
+                "/DataPictures/CareAndBeauty/אפרת לובשיץ2.jpeg",
+                "/DataPictures/CareAndBeauty/אפרת לובשיץ3.jpg",
+                "/DataPictures/CareAndBeauty/אפרת לובשיץ4.jpg",
+                "/DataPictures/CareAndBeauty/אפרת לובשיץ5.jpeg"
+            ],
+            "phone": "0552117631",
+            "address": "נווט מודיעין עילית",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל אפרת לובשיץ.jpeg",
+            "text": "יקירתי, ביום החתונה שלך, את ראויה להרגיש הכי יפה ומיוחדת בעולם.<br><br>ואני אעשה הכל כדי שזה יקרה. אני אפרת,<br><br>מאפרת מנוסה שמאמינה שהסוד לאיפור מושלם טמון בהקשבה ובהבנה עמוקה של הצרכים האישיים של כל כלה.<br><br>אצלי בסטודיו, נצא יחד למסע של גילוי עצמי. נמצא את הלוק שהכי מחמיא לך ומשקף את הווייב הייחודי שלך.<br><br>את מוזמנת לשתף אותי בכל החלומות, הרצונות והדברים שחשובים לך –<br><br>ואני אדאג שהאיפור ישקף אותם באופן הכי קסום ויפה.<br><br>כשתשבי מולי בכיסא, אני רוצה שתרגישי בבית.<br><br>שתדעי שאת בידיים טובות ושיש לך מישהי שדואגת שתהיי הגרסה הכי מדהימה של עצמך.<br><br>קבעי פגישה ובואי להתרשם בעצמך מחוויית האיפור המפנקת והאישית.<br><br>מבטיחה שזו תהיה ההחלטה הכי טובה שתקבלי לקראת החתונה!<br><br>מתרגשת כבר להכיר אותך, אפרת לובשיץ",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/אפרת לובשיץ-מאפרת כלות וערב.jpeg"
+        },
+        {
+            "code": 26,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מאפרות",
+            "name": "מירי קרפט -עיצוב שיער-איפור כלות וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/מירי קרפט1.jpg",
+                "/DataPictures/CareAndBeauty/מירי קרפט2.jpg",
+                "/DataPictures/CareAndBeauty/מירי קרפט3.jpg",
+                "/DataPictures/CareAndBeauty/מירי קרפט4.jpeg",
+                "/DataPictures/CareAndBeauty/מירי קרפט5.jpg"
+            ],
+            "phone": "0552118665",
+            "address": "נווט בני ברק",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל מירי קרפט.gif",
+            "text": "היי, אני מירי, בעלת סטודיו בוטיק לפאות, שיער ואיפור.<br><br>הסלון שלי ממוקם במרכז העיר, מפנק ומחכה לך, אוהבת להגיע לטון המדויק עבורך ולתוצאה מיוחדת מותאמת בדיוק בשבילך, במקצועיות, יופי והמון כיף!<br><br>מעבירה סדנאות פרונטלי ודיגיטל,<br>ניתן לפנות אלי במייל לכל שאלה, כאן ולהירשם לקבוצה שלנו לקבלת טיפים ושימוש נכון במוצרים שלנו בנושא השיער והאיפור.<br><br>אז, מחכה כבר לטפס איתך לפסגה ולהנות מהדרך, כמובן!",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/מירי קרפט -עיצוב שיער-איפור כלות וערב.jpeg"
+        },
+        {
+            "code": 27,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מאפרות",
+            "name": "חיה וינפלד – מאפרת כלות וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/חיה וינפלד1.jpg",
+                "/DataPictures/CareAndBeauty/חיה וינפלד2.jpg",
+                "/DataPictures/CareAndBeauty/חיה וינפלד3.jpeg",
+                "/DataPictures/CareAndBeauty/חיה וינפלד4.jpg",
+                "/DataPictures/CareAndBeauty/חיה וינפלד5.jpeg"
+            ],
+            "phone": "0552118597",
+            "address": "נווט בני ברק",
+            "profil": "DataPictures/CareAndBeauty/חיה וינפלד פרופיל.png",
+            "text": "שמי חיי וינפלד, מאפרת כלות וערב,<br>איפור ע”פ בקשת הלקוחה,<br>מתמחה גם באיפור ללא עיניים,<br>תינתן הגעה לבית הלקוחה מ-2 איפורים ומעלה ללא תשלום (בבני ברק)<br>מגיעה גם לאלעד, בית שמש וירושלים",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/חיה וינפלד – מאפרת כלות וערב.jpeg"
+        },
+        {
+            "code": 28,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מאפרות",
+            "name": "נעמי רבר – איפור ושיער כלות וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/נעמי רבר1.jpg",
+                "/DataPictures/CareAndBeauty/נעמי רבר2.jpg",
+                "/DataPictures/CareAndBeauty/נעמי רבר3.jpg",
+                "/DataPictures/CareAndBeauty/נעמי רבר4.jpg",
+                "/DataPictures/CareAndBeauty/נעמי רבר5.jpg"
+            ],
+            "phone": "0552117638",
+            "address": "נווט הרב ש\"ך 58,<br>בני ברק",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל נעמי רבר.jpg",
+            "text": "נעמי רבר<br>מאפרת ומסרקת כלות, ערב, הפקות<br>מזמינה אותך להיות הכי יפה באירוע שלך<br>בסטייל ובהתאמה מדויקת לך..<br>כי הלקוחות שלי הם המרכז באירוע💫",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/נעמי רבר – איפור ושיער כלות וערב.jpeg"
+        },
+        {
+            "code": 29,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מאפרות",
+            "name": "חני גולדברג – איפור וקוסמטיקה",
+            "image": [
+                "/DataPictures/CareAndBeauty/חני גולדברג1.jpeg",
+                "/DataPictures/CareAndBeauty/חני גולדברג2.jpeg",
+                "/DataPictures/CareAndBeauty/חני גולדברג4.jpeg"
+            ],
+            "phone": "0552118743",
+            "address": "נווט בית שמש בני ברק ומרכז",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל חני גולדברג.png",
+            "text": "זמן של שמחה. את רוצה להיראות במיטבך- ולאורך כל האירוע.<br><br>אני חני גולדברג, מאחורי מאות איפורים של כלות, מחותנות ושושבינות.<br><br>כל אחת מקבלת מענה מדויק לצורך שלה, רק המוטיב המרכזי נשאר אצל כולן:<br>האיפור בעצמו.<br><br>איכותי, עמיד, גם ליום שאחרי- לא תצליחי להסיר…<br><br>כאן תקבלי התאמה מושלמת לפנים, ולטעמך, ולחלום האישי שלך.<br><br>בואי להיות את, להישאר את, ויפה יותר.<br><br>אז תתכונני לליגה אחרת: לאהוב את המראה שלך – גם כמובן בתמונות שאחר כך,<br>ואל תשכחי לספר על הפידבקים :)",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/חני גולדברג – איפור וקוסמטיקה.jpg"
+        },
+        {
+            "code": 30,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מאפרות",
+            "name": "מיכל גיטלר – מאפרת כלות וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/מיכל גיטלר1.png",
+                "/DataPictures/CareAndBeauty/מיכל גיטלר2.png",
+                "/DataPictures/CareAndBeauty/מיכל גיטלר3.png",
+                "/DataPictures/CareAndBeauty/מיכל גיטלר4.png",
+                "/DataPictures/CareAndBeauty/מיכל גיטלר5.png"
+            ],
+            "phone": "0552118706",
+            "address": "נווט ירושלים",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל מיכל גיטלר.jpg",
+            "text": "",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/חני גולדברג – איפור וקוסמטיקה.jpg"
+        },
+        {
+            "code": 31,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מסרקות",
+            "name": "חוי בריזל – איפור ועיצוב שיער כלות וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/חוי בריזל1.jpg",
+                "/DataPictures/CareAndBeauty/חוי בריזל2.jpeg",
+                "/DataPictures/CareAndBeauty/מיכל גיטלר3.png",
+                "/DataPictures/CareAndBeauty/חוי בריזל3.jpeg",
+                "/DataPictures/CareAndBeauty/חוי בריזל4.jpg"
+            ],
+            "phone": "0552118650",
+            "address": "נווט בני ברק אזור ויזניץ אפשרות הגעה לבית הלקוחה",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל חוי בריזל.png",
+            "text": "הרצון העיקרי שלי – להוציא כל אחת כרצונה במראה האהוב והיחודי שלה לכל אירוע.<br><br>שירות, עמידות, דיוק ואיכות = לקוחות מרוצות!<br><br>כלה יקרה!!! הרצון שלך להיראות יפה ומושלמת עם חוויה רגועה וכיפית ביום הכי יפה שלך –<br><br>כמאפרת ומסרקת זה העיקר מה שחשוב לי שתהיי מרוצה,<br><br>וכמובן שתראי טוב ובטאץ האישי שלך!<br><br>ניפגש בשמחות מכל הלב<br><br>חוי!<br><br><br>חדש!!!!!!!<br><br>מהיום תעשי את זה לבד!<br><br>קורס תסרוקות אסופות/ פתוחות. מוברשים. קליעות. פאנים. פיסול<br><br>הקורסים בשווי עשרות אלפי שקלים נמכרים בכמה מאות בלבד!<br><br>הקורסים בהתאמה אישית לכל אחת ואחת!<br><br>החומר הנלמד בקורס נתון לבחירתך!<br><br>לקורס מתחילות במקום 3300 רק 2800 כולל ערכה בשווי 500<br><br>למתקדמות במקום 2000 רק 1500<br><br>לאמהות לחיסכון! במקום 1500 רק 1000<br><br>קורס סירוק פאה מלא! במקום 1500 רק 1000<br><br>סירוק פאה לפאה שלך! לחיסכון! במקום 1000 רק 800<br><br>דברי איתי לשמוע על הקורס הבא הקרוב",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/חוי בריזל – איפור ועיצוב שיער כלות וערב.jpeg"
+        },
+        {
+            "code": 32,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מסרקות",
+            "name": "חני הופמן – עיצוב שיער לכלות וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/חני הופמן1.jpg",
+                "/DataPictures/CareAndBeauty/חני הופמן2.jpg",
+                "/DataPictures/CareAndBeauty/חני הופמן3.jpeg",
+                "/DataPictures/CareAndBeauty/חני הופמן4.jpeg"
+            ],
+            "phone": " 0552118643",
+            "address": "נווט אלעד, נוסעת לכל הארץ",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל חני הופמן.jpeg",
+            "text": "הרצון העיקרי שלי – להוציא כל אחת כרצונה במראה האהוב והיחודי שלה לכל אירוע.<br><br>שירות, עמידות, דיוק ואיכות = לקוחות מרוצות!<br><br>כלה יקרה!!! הרצון שלך להיראות יפה ומושלמת עם חוויה רגועה וכיפית ביום הכי יפה שלך –<br><br>כמאפרת ומסרקת זה העיקר מה שחשוב לי שתהיי מרוצה,<br><br>וכמובן שתראי טוב ובטאץ האישי שלך!<br><br>ניפגש בשמחות מכל הלב<br><br>חוי!<br><br><br>חדש!!!!!!!<br><br>מהיום תעשי את זה לבד!<br><br>קורס תסרוקות אסופות/ פתוחות. מוברשים. קליעות. פאנים. פיסול<br><br>הקורסים בשווי עשרות אלפי שקלים נמכרים בכמה מאות בלבד!<br><br>הקורסים בהתאמה אישית לכל אחת ואחת!<br><br>החומר הנלמד בקורס נתון לבחירתך!<br><br>לקורס מתחילות במקום 3300 רק 2800 כולל ערכה בשווי 500<br><br>למתקדמות במקום 2000 רק 1500<br><br>לאמהות לחיסכון! במקום 1500 רק 1000<br><br>קורס סירוק פאה מלא! במקום 1500 רק 1000<br><br>סירוק פאה לפאה שלך! לחיסכון! במקום 1000 רק 800<br><br>דברי איתי לשמוע על הקורס הבא הקרוב",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/חני הופמן – עיצוב שיער לכלות וערב.jpeg"
+        },
+        {
+            "code": 33,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מסרקות",
+            "name": "אושרת איילי – מעצבת שיער לכלות",
+            "image": [
+                "/DataPictures/CareAndBeauty/אושרת1.jpg",
+                "/DataPictures/CareAndBeauty/אושרת2.jpeg",
+                "/DataPictures/CareAndBeauty/אושרת3.jpeg",
+                "/DataPictures/CareAndBeauty/אושרת4.jpg"
+            ],
+            "phone": "0552117641",
+            "address": "נווט בית שמש",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל אושרת.jpeg",
+            "text": "מחפשת עיצוב שיער ברמה גבוהה במיוחד?<br>חשוב לך הדיוק בפרטים הקטנים בשיער?<br><br>אני כאן בשבילך! נעים מאוד אני אושרת איילי מאסטרית בעיצוב שיער עוזרת לך להגשים את החלום שלך ביום החתונה!<br>שיער מדוייק עמיד באיכות הגבוהה ביותר.<br><br>עם 12 שנות ניסיון והתמחות בסוגי שיער שונים עד המקורזל ביותר, מגיעה איתך לתסרוקת מקצועית איכותית ועמידה לאורך כל הערב.<br><br>הייחודיות בשירות שלי:<br><br>איכות ומקצועיות חשוב לי לתת לך תסרוקת ברמה גבוהה.<br>יחס אישי וחם.<br>הקשבה לצרכים ולרצונות שלך.<br>התאמת התסרוקת לסגנון ולמראה שלך.<br>שימוש בחומרים מובילים.<br>זמינות ועמידה בלוחות זמנים.<br>אני מאמינה שכל כלה היא יחידה ומיוחדת, ומתייחסת לכל כלה כיהלום!<br><br>התוצאה? חווית שירות מקצועית לוק איכותי במיוחד וכל זה בשביל שתראי הכלה שכל כך חלמת🤍",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/אושרת איילי – מעצבת שיער לכלות.jpeg"
+        },
+        {
+            "code": 34,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מסרקות",
+            "name": "יעל גולדברג – מאפרת ומסרקת כלות וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/יעל גולדברג1.jpg",
+                "/DataPictures/CareAndBeauty/יעל גולדברג2.jpg",
+                "/DataPictures/CareAndBeauty/יעל גולדברג3.jpg",
+                "/DataPictures/CareAndBeauty/יעל גולדברג4.jpg"
+            ],
+            "phone": "0552117659",
+            "address": "נווט מרכז",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל יעל גולדברג.jpeg",
+            "text": "איפור ושיער לכלות וערב – זוהרת כל האירוע!<br>רוצה להיראות מהממת וזוהרת ביום החתונה?<br><br>אני יעל, מאפרת ומסרקת מקצועית לכלות וערב כבר 8 שנים<br><br>עובדת רק עם מוצרים איכותיים במיוחד, כאלה שלא זזים כל הערב!<br><br>הכי חשוב לי שתרגישי בנוח ושתקבלי ממני יחס אישי וחם.<br><br>אפשר גם להגיע אלייך הביתה.<br><br>הסטייל שלי? עדין וקלאסי, אבל עם טאצ’ מיוחד משלי<br><br>ואם יש לך רעיון משלך, אשמח לשמוע ולעשות לך אותו.<br><br>יש לי גם כתרים ואביזרי שיער מיוחדים להשכרה.<br><br>רוצה לראות עוד תמונות? יש לי מלא!<br><br>תתקשרי ואשלח לך(:",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/יעל גולדברג – מאפרת ומסרקת כלות וערב.jpeg"
+        },
+        {
+            "code": 35,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מסרקות",
+            "name": "רעות וייס – מאפרת ומסרקת כלות",
+            "image": [
+                "/DataPictures/CareAndBeauty/רעות1.jpg",
+                "/DataPictures/CareAndBeauty/רעות2.jpg",
+                "/DataPictures/CareAndBeauty/רעות3.jpg",
+                "/DataPictures/CareAndBeauty/רעות4.jpg"
+            ],
+            "phone": "0552117604",
+            "address": "נווט מרכז",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל רעות וייס.jpg",
+            "text": "היי! אני רעות וייס,<br><br>מאפרת ומסרקת כלות עם ותק של 6 שנים.<br><br>המטרה שלי היא ליצור עבורך מראה שירגיש לך טבעי וייחודי, תוך הדגשת היופי שלך בצורה מושלמת.<br>איפור טבעי וזוהר שיבליט את היופי הטבעי שלך ויגרום לך להרגיש בנוח ובטוחה בעצמך.<br>תסרוקת מלאת נפח ותנועה שתתאים בצורה מושלמת לסגנון שלך בסגנון בוהו שיק- זו גם המומחיות שלי🙂<br><br>אני אגיע אליך לכל מקום שתבחרי, תנסי לבחור מקומות אטרקטיביים שיהיה לי מעניין!<br><br>חשוב לי מאוד שתהיי מרוצה, ותרגישי שהגשמת את החלום שלך בדיוק כמו שרצית<br>ולכן תקבלי מפגש ניסיון ללא עלות נוספת ונוכל לנסות עליך כל סגנון שתרצי עד שתרגישי בנוח!<br><br>נתראה!<br><br>רעות",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/יעל גולדברג – מאפרת ומסרקת כלות וערב.jpeg"
+        },
+        {
+            "code": 36,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "מסרקות",
+            "name": "שרי פיירמן – מאפרת ומעצבת שיער",
+            "image": [
+                "/DataPictures/CareAndBeauty/שרי פרימן1.jpeg",
+                "/DataPictures/CareAndBeauty/שרי פרימן2.jpeg",
+                "/DataPictures/CareAndBeauty/שרי פרימן3.jpeg",
+                "/DataPictures/CareAndBeauty/שרי פרימן4.jpg",
+                "/DataPictures/CareAndBeauty/שרי פרימן5.jpg"
+            ],
+            "phone": "0552118705",
+            "address": "נווט ירושלים ביתר והסביבה",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל שרי נברוצקי.jpg",
+            "text": "היי, אני שרי פיירמן<br><br>מאפרת ומעצבת שיער ברמה גבוהה כבר כמה שנים<br><br>מזמינה גם אותך לבוא אלי באירוע הבא שלך ולצאת עם שיער ואיפור לא פחות ממושלם!!<br><br>מחכה לך!",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/שרי פיירמן – מאפרת ומעצבת שיער.jpg"
+        },
+        {
+            "code": 37,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "קוסמטיקה",
+            "name": "ציפורה קוסמטיקס-מכון קוסמטיקה יופי",
+            "image": [
+                "/cosmeticsPictures/ציפורה קוסמטיק1.jpeg",
+                "/cosmeticsPictures/ציפורה קוסמטיק2.jpeg",
+                "/cosmeticsPictures/ציפורה קוסמטיק3.jpeg",
+                "/cosmeticsPictures/ציפורה קוסמטיק4.jpeg",
+                "cosmeticsPictures/ציפורה קוסמטיק5.jpeg"
+            ],
+            "phone": "08-9267787",
+            "address": "נווט שדרות בית הלל מודיעין עילית",
+            "profil": "/cosmeticsPictures/פרופיל ציפורה קוסמטיק.png",
+            "text": "מכון קוסמטיקה ויופי מקצועי ומתקדם, המציע מגוון טיפולים אסתטיים:<br>🎀הסרת שיער לצמיתות בלייזר באמצעות מכשיר KANDELA MAX PRO המתקדם<br>המבטיח מקסימום תוצאות במינימום כאב!<br>🎀הסרת שיער באפילציה.<br>🎀שעווה.<br>🎀עיצוב גבות.<br>🎀טיפולי פנים - קלאסי, מיזוטרפיה, טיפולי זוהר, פילינג ועוד…<br>יעוץ חינם וללא התחייבות!<br>כל הטיפולים שלנו מבוצעים ע”י הצוות המקצועי והמיומן שלנו עם חיוך, אוירה טובה ודיסקרטיות מלאה😀",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/cosmeticsPictures/צפורה קוסמטיקס-מכון קוסמטיקה ויופי.jpg"
+        },
+        {
+            "code": 37,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "קוסמטיקה",
+            "name": "חני קוסמטיקס – אפילציה גבות וריסים",
+            "image": [
+                "/DataPictures/CareAndBeauty/חני קוסמטיקס1.jpeg",
+                "/DataPictures/CareAndBeauty/חני קוסמטיקס2.jpeg"
+            ],
+            "phone": " 0552118108",
+            "address": "נווט ביתר עילית",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל חני קוסמטיקס.jpg",
+            "text": "",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/חני קוסמטיקס – אפילציה גבות וריסים.jpg"
+        },
+        {
+            "code": 38,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "קוסמטיקה",
+            "name": "ברכה אינדורסקי – איפור כלות וערב וקוסמטיקה",
+            "image": [
+                "/DataPictures/CareAndBeauty/ברכה אינדורסקי1.jpeg",
+                "/DataPictures/CareAndBeauty/ברכה אינדורסקי2.jpeg"
+            ],
+            "phone": "0552117676",
+            "address": "נווט ביתר עילית",
+            "profil": "/DataPictures/CareAndBeauty/פרופיל ברכה אינדורסקי.jpeg",
+            "text": "איפור כלות וערב בדגש על שמירת תווי פנייך, והדגשת היופי שלך. תוך שימוש בחומרים איכותיים ועמידים!<br><br>אסתטיקאית ומומחית לטיפולי יופי ומיצוק העור, מכירת מוצרים לטיפוח העור<br><br>קורסים אישיים איפור כלות וערב בדגש על שמירת תווי פנייך, והדגשת היופי שלך. תוך שימוש בחומרים איכותיים ועמידים!<br><br>אסתטיקאית ומומחית לטיפולי יופי ומיצוק העור, מכירת מוצרים לטיפוח העור<br><br>קורסים אישיים ודיגיטליים ללימוד איפור עצמי",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/ברכה אינדורסקי – איפור כלות וערב וקוסמטיקה.jpeg"
+        },
+        {
+            "code": 13,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "נעמי פרוש– שמלות ערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/פרוש1.jpg",
+                "/DataPictures/CareAndBeauty/פרוש 2.jpg",
+                "/DataPictures/CareAndBeauty/פרוש 3.jpg",
+                "/DataPictures/CareAndBeauty/פרוש4.jpg",
+                "/DataPictures/CareAndBeauty/new3.png"
+            ],
+            "phone": "0552118997",
+            "address": "נווט בית וגן 99 א׳ ירושלים",
+            "profil": "/DataPictures/CareAndBeauty/נעמי פרוש לוגו.png",
+            "text": "באירוע הבא שלך תראי מושלם!<br><br>נעמי, סטייליסטית ומפיקת אופנה מזמינה אותך לבוא ולהתרשם<br><br>ממבחר של שמלות יוקרה להשכרה לכל המשפחה.",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/נעמי פרוש- שמלות ערב.jpg"
+        },
+        {
+            "code": 14,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "גיטי וירצברגר – סטודיו בוטיק להשכרת ותפירת שמלות",
+            "image": [
+                "/DataPictures/CareAndBeauty/אתי 1.jpg",
+                "/DataPictures/CareAndBeauty/אתי 2.jpg",
+                "/DataPictures/CareAndBeauty/אתי 3.jpg",
+                "/DataPictures/CareAndBeauty/אתי 4.webp",
+                "/DataPictures/CareAndBeauty/אתי 5.webp",
+                "/DataPictures/CareAndBeauty/אתי 6.jpg"
+            ],
+            "phone": " 0552118138",
+            "address": "נווט עלית הנוער 50' רמות ב׳ ירושלים",
+            "profil": "/DataPictures/CareAndBeauty/אתי רוטנברג.jpeg",
+            "text": "אתי רוטנברג מזמינה אותך ליהנות<br><br>מקולקציה מעוצבת ומושלמת<br><br>שנתפרה באהבה במיוחד בשבילך,<br><br>שילוב נדיר של יצירתיות עם קו נקי ומדויק,<br><br>בסטנדרט תפירה גבוה וגימור בלתי מתפשר,<br><br>אין לי ספק שתצאי רגועה ומאושרת!<br><br>מחכה להתרגש איתך ביחד,<br><br>אתי",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/גיטי וירצברגר – סטודיו בוטיק להשכרת ותפירת שמלות.jpg"
+        },
+        {
+            "code": 15,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "מלכי גולומב-שמלות כלה וערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/גולומב 1.jpg",
+                "/DataPictures/CareAndBeauty/גולומב 2.jpg",
+                "/DataPictures/CareAndBeauty/גולומב 3.jpg",
+                "/DataPictures/CareAndBeauty/גולומב 4.jpg",
+                "/DataPictures/CareAndBeauty/גולומב 5.jpeg"
+            ],
+            "phone": "0552118063",
+            "address": "נווט פחד יצחק 15/10, ביתר עילית",
+            "profil": "/DataPictures/CareAndBeauty/גולומב לוגו.jpg",
+            "text": "מחפשת שמלה לאירוע? משהו מקורי וייחודי?<br><br>הבוטיק של מלכי גולומב היא הכתובת!!!<br><br>את מוזמנת לבוא ולהתרשם מהקולקציה המיוחדת והמהממת של השכרת שמלות בכל הגוונים וכל הסגנונות.",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/מלכי גולומב-שמלות כלה וערב.jpg"
+        },
+        {
+            "code": 16,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "גיטי וירצברגר – סטודיו בוטיק להשכרת ותפירת שמלות",
+            "image": [
+                "/DataPictures/CareAndBeauty/גיטי 1.jpg",
+                "/DataPictures/CareAndBeauty/גיטי2.jpg",
+                "/DataPictures/CareAndBeauty/גיטי 3.jpg",
+                "/DataPictures/CareAndBeauty/גיטי 4.webp",
+                "/DataPictures/CareAndBeauty/גיטי 5.webp"
+            ],
+            "phone": "0552118596",
+            "address": "נווט ירושלים",
+            "profil": "/DataPictures/CareAndBeauty/גיטי לוגו.jpeg",
+            "text": "סטודיו בוטיק להשכרת ותפירת שמלות ערב לנשים נערות וילדות.",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/רחל סיטבון - שמלות ערב.jpg"
+        },
+        {
+            "code": 17,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "-חנה ליכטנשטיין שמלות ערב עם נראות מושלמת",
+            "image": [
+                "/DataPictures/CareAndBeauty/חנה 1.jpeg",
+                "/DataPictures/CareAndBeauty/חנה (2).jpeg",
+                "/DataPictures/CareAndBeauty/חנה 3.jpeg",
+                "/DataPictures/CareAndBeauty/חנה (4).jpeg",
+                "/DataPictures/CareAndBeauty/חנה (5).jpeg"
+            ],
+            "phone": "0552118669",
+            "address": "נווט ירושלים רמות",
+            "profil": "/DataPictures/CareAndBeauty/חנה ליכ לוגו.jpg",
+            "text": "אם את רוצה שמלה שתתאים לך,<br><br>הן מבחינת העיצוב והן מבחינת הגזרה,<br><br>אחת כזו, שכל מי שרואה אותך תגיד:<br><br>“וואו, מאיפה זה?”<br><br>גם אם תמיד את מתקשה למצוא ביגוד בחנויות.<br><br>נעים מאד,<br><br>חנה ליכטנשטיין,<br><br>בעלת נסיון של 14 בתפירה, תוך מומחיות בהתאמת עיצוב וגיזרה למבנה גוף לכל אישה, בכל מצב.<br><br>בונה מאפס את הגזרה ללקוחה מה שתתאים בול,<br><br>במידות מיוחדות בחנויות את מוגבלת למה שיש, לא תמיד לפי הטעם האישי…<br><br>אצלי ביחס לתופרות אחרות, מתמחה גם במידות מיוחדות, גימורים מושלמים, מתעדכנת במה שהולך!<br><br>אז-<br><br>מוזמנת לקביעת פגישת התאמה ללא עלות וללא התחייבות, בכדי להתאים לך את שיתאים לך.<br><br>(גם לטיפול בתינוק קטן תוך כדי השמחה, בנוחות, ובלי שיראה ככזה,<br><br>כמו שאמרה לי חוה – הייתי עם תינוק בן 6 שבועות בחתונה של אחי,<br><br>ודודות שלי ממרחק חצי מטר, לא האמינו לי שזה מותאם ונוח…)",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/-חנה ליכטנשטיין שמלות ערב עם נראות מושלמת.jpg"
+        },
+        {
+            "code": 18,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "רחל סיטבון - שמלות ערב",
+            "image": [
+                "/DataPictures/CareAndBeauty/סטבון 1.webp",
+                "/DataPictures/CareAndBeauty/סטבון 2.webp",
+                "/DataPictures/CareAndBeauty/סיטבון אחרון.png",
+                "/DataPictures/CareAndBeauty/חנה 3.jpeg",
+                "/DataPictures/CareAndBeauty/חנה (4).jpeg"
+            ],
+            "phone": "0552118734",
+            "address": "נווט ירושלים : קניון רמות קומה 3 ,במיני מול | בני ברק: מהרש",
+            "profil": "/DataPictures/CareAndBeauty/רחלי סיטבון לוגו.png",
+            "text": "המותג שלי נולד,<br><br>כדי להקל על החוויה במציאת שמלות לאירוע.<br><br>אישה שיש לה אירוע, אחד הדברים המורכבים יותר<br><br>הוא מציאת השימלה לאירוע, וכל שאר ההתאמות..<br><br>יצרתי עבורכן קולקציה מרגשת לכל המשפחה<br><br>במידות 1-50 במגוון גזרות וצבעים<br><br>שיתאימו לכל אחת באירוע,<br><br>שמלות שבת ושבע ברכות.<br><br>כדי לחסוך את ההתרוצצויות לפני האירוע,<br><br>דאגתי לתופרות שיתאימו לך את השמלה,<br><br>פפיונים ועניבות לגברים,<br><br>בצבעים של השמלות, אביזרי שיער ותכשיטים.<br><br>מתוך זה נולד הסלוגן שלנו<br><br>“פתאום קל להתלבש מרגש”<br><br>עד היום היה קשה להתלבש לאירוע,<br><br>אבל מי שנכנס אלינו זה הופך להיות פשוט וקל<br><br>מחכה לכם בסניפים<br><br>ירושלים קניון רמות<br><br>ובני ברק מהרשל 3",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/רחל סיטבון - שמלות ערב.jpg"
+        },
+        {
+            "code": 19,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "רות מורשה – שמלות כלה",
+            "image": [
+                "/DataPictures/CareAndBeauty/מורשה 1.jpg",
+                "/DataPictures/CareAndBeauty/מורשה 2.jpg",
+                "/DataPictures/CareAndBeauty/מורשה 3.jpg",
+                "/DataPictures/CareAndBeauty/מורשה 4.jpg",
+                "/DataPictures/CareAndBeauty/מורשה 5.jpeg"
+            ],
+            "phone": "0552118691",
+            "address": "נווט קריית משה ירושלים",
+            "profil": "/DataPictures/CareAndBeauty/מורשה לוגו.jpeg",
+            "text": "“היינו בהרבה השכרות, אבל שמלות כאלה לא ראינו!”<br><br>אלו המילים שאני שומעת מכל מי שנכנסת לבוטיק שלי ומחפשת את השמלה לאירוע שלה.<br><br>שמי רות מורשה ואני בעלת בוטיק לשמלות כלה וערב.<br><br>בבוטיק שלי תוכלי לבחור שמלה ייחודית ומושלמת עבורך;<br><br>כ-14 שנים אני עוסקת בתפירת שמלות כלה וערב ואני מעניקה ליווי צמוד לאורך כל הדרך ללקוחות שלי: מקפידה על תפירה מדויקת; משתמשת בבדים איכותיים; משלבת עבודות יד מושקעות; ומעל הכל – גזרת השמלה מותאמת לגופך ומחמיאה לך.<br><br>אני מזמינה אותך לבוטיק להתרשם ממבחר שמלות חדשניות, עדכניות וייחודיות ברמה סלונית גבוהה ביותר.<br><br>איתך עד לתוצאה מושלמת!<br><br>רות מורשה<br><br>הסטודיו בירושלים בקרית משה<br><br>זמינות גבוהה",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/רות מורשה- שמלות כלה.jpg"
+        },
+        {
+            "code": 20,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "רוטנברג- שמלות כלה",
+            "image": [
+                "/DataPictures/CareAndBeauty/רוטנברג 2.jpeg",
+                "/DataPictures/CareAndBeauty/רוטנברג 1.jpeg",
+                "/DataPictures/CareAndBeauty/רוטנברג 3.jpeg",
+                "/DataPictures/CareAndBeauty/רוטנברג 4.jpeg"
+            ],
+            "phone": "0552118138",
+            "address": "נווט עלית הנוער 50' רמות ב׳ ירושלים",
+            "profil": "/DataPictures/CareAndBeauty/אתי רוטנברג.jpeg",
+            "text": "אתי רוטנברג מזמינה אותך ליהנות<br><br>מקולקציה מעוצבת ומושלמת<br><br>שנתפרה באהבה במיוחד בשבילך,<br><br>שילוב נדיר של יצירתיות עם קו נקי ומדויק,<br><br>בסטנדרט תפירה גבוה וגימור בלתי מתפשר,<br><br>אין לי ספק שתצאי רגועה ומאושרת!<br><br>מחכה להתרגש איתך ביחד,<br><br>אתי",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/אתי רוטנברג – שמלות כלה וערב.jpg"
+        },
+        {
+            "code": 21,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "שובל – שמלות כלה",
+            "image": [
+                "/DataPictures/CareAndBeauty/שובל 1.jpeg",
+                "/DataPictures/CareAndBeauty/שובל 2.jpeg",
+                "/DataPictures/CareAndBeauty/שובל 3.jpg",
+                "/DataPictures/CareAndBeauty/שובל 4.jpg",
+                "/DataPictures/CareAndBeauty/חנה (4).jpeg"
+            ],
+            "phone": "0552118618",
+            "address": "נווט מודיעין עילית",
+            "profil": "/DataPictures/CareAndBeauty/שובל.png",
+            "text": "את השמלות שלי אי אפשר למצוא במקומות אחרים.<br><br>כל שמלה שאני יוצרת מביאה לעולם סיפור מיוחד ומרגש, שמתבטא בקולאז’ דגמי האריגים, בגוונים שבחרתי לשלב<br><br>וביתר הפריטים המתרקמים יחד לשמלה מופלאה שאין דומה לה. אבל מה שחשוב הרבה יותר מזה –<br><br>אני מקשיבה לקול הפנימי של הכלה, אוספת את המאווים הכי פנימיים שלה ומתרגמת את כל הרגשות<br><br>לשמלה עילאית שמזקקת לתוכה את האישיות והנפש של הכלה.<br><br>ההשראות לעיצובים המקוריים שלי נולדות מתוך חלומות ומחשבות שמלווים אותי,<br><br>בנוסף לשמלת החלומות, חשוב לי להעניק לכל כלה את כל האקססוריז הנדרש כדי שתצא מן הסלון שלי זוהרת ומושלמת:<br><br>נעליים נוחות לריקודים סוערים, עגילים אלגנטיות המתכתבות עם השמלה, כתר יפהפה או סיכת יהלומים מיוחדת.<br><br>כלה יקרה, את אחת ויחידה בשבילי! אני מחכה לך כאן, בסלון שלי,<br><br>כדי לתכנן בעבורך את החלום שאת מטפחת לערב הכי גדול בחייך.<br><br>אכין את שמלת הקסם המהפנטת שלך כך שתחמיא למידות גופך ותהלום אותך בהתאמה אישית וזוהרת במיוחד.<br><br>אצלי תהיי כלה שאי אפשר לשכוח!",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/שובל-שמלות כלה.webp"
+        },
+        {
+            "code": 22,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "שולמית עשור – בוטיק שמלות כלה",
+            "image": [
+                "/DataPictures/CareAndBeauty/סיערה 2.jpeg",
+                "/DataPictures/CareAndBeauty/עשור 22.jpeg",
+                "/DataPictures/CareAndBeauty/עשור 4.jpeg",
+                "/DataPictures/CareAndBeauty/עשור 1.jpeg",
+                "/DataPictures/CareAndBeauty/עשור 2.webp",
+                "/DataPictures/CareAndBeauty/עשור 3.jpeg"
+            ],
+            "phone": "0552118060",
+            "address": "נווט גולדה מאיר פינת הקונגרס הציוני, ירושלים | קומה 3",
+            "profil": "/DataPictures/CareAndBeauty/שולמית עשור.jpg",
+            "text": "מגשימים לך חלום!<br><br>שולמית עשור, בעלת בוטיק שמלות הכלה, למעלה מ-20 שנות ניסיון ואיכות, עם רזומה עשיר של אלפי חלומות שהוגשמו לכלות נרגשות.<br><br>כי להעניק לכלה את השמלה ליום החשוב והמשמח ביותר בחיים, זו לא רק שליחות. זה לא רק מקצוע. זה להיות שותפה של ממש בבניין חדש.<br><br>עבורנו, כל שמלה היא סיפור. השמלה מספרת את הסיפור שהכלה רוצה לספר, על רגשות, רצונות ומאוויים, על בית חדש שהולך ונבנה ממש עכשיו.<br><br>החזון שלנו – הוא להעניק לכל כלה את התחושה כאילו רק היא קיימת, כאילו הסטודיו הוקם רק עבורה, כאילו זו השמלה הבודדת והמיוחדת שאנו תופרים.<br><br>כי עבורנו, כל כלה – מלכה. כל מלכה – שמלה!<br><br>בואי כלה, בואי מלכה.<br><br>קניון רמות קומה 3",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/שולמית עשור- בוטיק שמלות כלה.jpg"
+        },
+        {
+            "code": 23,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "שמלות ערב",
+            "name": "SIHARA – סטודיו בוטיק לשמלות כלה",
+            "image": [
+                "/DataPictures/CareAndBeauty/סיערה 1.jpeg",
+                "/DataPictures/CareAndBeauty/סיערה 3.jpg",
+                "/DataPictures/CareAndBeauty/סיערה 4.jpeg",
+                "/DataPictures/CareAndBeauty/סיערה 5.png",
+                "/DataPictures/CareAndBeauty/חדיש.jpg",
+                "/DataPictures/CareAndBeauty/חדיש 2.jpg"
+            ],
+            "phone": "0552118613",
+            "address": "נווט גולדה מאיר3",
+            "profil": "/DataPictures/CareAndBeauty/לוגו סיערה.jpeg",
+            "text": "מזמינה אותך להכיר מקרוב את ״SIHARA״ סטודיו בוטיק לשמלות כלה, בסטייל נקי טבעי ומדוייק.<br><br>בסטודיו אני שמה דגש על אווירה צעירה וכיפית, דגמים ייחודיים, גזרות מדוייקות ורמת תפירה וגימור גבוהה.<br><br>ומעל להכל, סבלנות והקשבה לך ולחלום שלך – החל משילובי הבדים, השכבות והטקסטורות ועד לפרטים הקטנים שנשזרים באומנות ובדיוק, והופכים את השמלה שלך ליצירה קסומה, שהיא הכי – את.<br><br>מחכה לך.",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/CareAndBeauty/רות מורשה- שמלות כלה.jpg"
+        },
+        {
+            "code": 8,
+            "catagory": "טיפוח ויופי",
+            "subCatagory": "קוסמטיקה",
+            "name": "ציפורה קוסמטיקס-מכון קוסמטיקה יופי",
+            "image": [
+                "/cosmeticsPictures/ציפורה קוסמטיק1.jpeg",
+                "/cosmeticsPictures/ציפורה קוסמטיק2.jpeg",
+                "/cosmeticsPictures/ציפורה קוסמטיק3.jpeg",
+                "/cosmeticsPictures/ציפורה קוסמטיק4.jpeg",
+                "cosmeticsPictures/ציפורה קוסמטיק5.jpeg"
+            ],
+            "phone": "08-9267787",
+            "address": "נווט שדרות בית הלל מודיעין עילית",
+            "profil": "/cosmeticsPictures/פרופיל ציפורה קוסמטיק.png",
+            "text": "מכון קוסמטיקה ויופי מקצועי ומתקדם, המציע מגוון טיפולים אסתטיים:<br>🎀הסרת שיער לצמיתות בלייזר באמצעות מכשיר KANDELA MAX PRO המתקדם<br>המבטיח מקסימום תוצאות במינימום כאב!<br>🎀הסרת שיער באפילציה.<br>🎀שעווה.<br>🎀עיצוב גבות.<br>🎀טיפולי פנים - קלאסי, מיזוטרפיה, טיפולי זוהר, פילינג ועוד…<br>יעוץ חינם וללא התחייבות!<br>כל הטיפולים שלנו מבוצעים ע”י הצוות המקצועי והמיומן שלנו עם חיוך, אוירה טובה ודיסקרטיות מלאה😀",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/cosmeticsPictures/צפורה קוסמטיקס-מכון קוסמטיקה ויופי.jpg"
+        }
+    ]
+}

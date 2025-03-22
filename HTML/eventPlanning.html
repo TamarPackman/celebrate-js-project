@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventPlanning</title>
+</head>
+
+<body>
+    <h1 id="guest">שלום אורח</h1>
+    <div id="logo"><a href="./Index.html"><img src="/headerArray/logo.png" alt="" width="265px"></a></div>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/IndexStyle.css">
+    <link rel="stylesheet" href="/CSS/eventPlanning.css">
+    <link rel="stylesheet" href="/CSS/productDisplay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <header>
+
+        <button id="login" class="elementor-button-login">התחברות</button>
+        <button id="bag"> <img src="/headerArray/עגלת קניות.png" alt="" width="120px"></button>
+        <button id="search" class="elementor-button-login">חיפוש</button>
+        <div id="burger"><i class="fa fa-bars"></i></div>
+
+        <nav>
+            <div class="nav-item">
+                <a href="/HTML/about.html">אודותינו</a>
+                <div class="submenu">
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">מקום ארוע</a>
+                <div class="submenu">
+                    <a href="#">אולמות חתונה</a>
+                    <a href="#">גני אירועים</a>
+                    <a href="#">קמפוסים</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">טיפוח ויופי</a>
+                <div class="submenu">
+                    <a href="#">שמלות ערב</a>
+                    <a href="#">שמלות כלה</a>
+                    <a href="#">מאפרות</a>
+                    <a href="#">מסרקות</a>
+                    <a href="#">קוסמטיקה</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">מוזיקה</a>
+                <div class="submenu">
+                    <a href="#">DJ לחתונה</a>
+                    <a href="#">זמרים</a>
+                    <a href="#">תזמורת</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">צילום</a>
+                <div class="submenu">
+                    <a href="#">הפקות צילום</a>
+                    <a href="#">צילום וידיאו</a>
+                    <a href="#">צילום סטילס</a>
+                    <a href="#">צילומי בוק</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">קייטרינג ובר</a>
+                <div class="submenu">
+                    <a href="#">קייטרינג בשרי</a>
+                    <a href="#">קייטרינג חלבי</a>
+                    <a href="#">מגשי אירוח</a>
+                    <a href="#">קינוחים/בר מתוקים</a>
+                    <a href="#">יינות ואלכוהול</a>
+                    <a href="#">עיצובי פירות</a>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="myModal" class="modal">
+        <div id="modal-content">
+            <span class="close">&times;</span>
+
+            <form>
+
+                <header class="head-form">
+                    <h2>התחבר/י למשתמש שלך</h2>
+                    <p>אין לך משתמש? <a id="clickToLogIn" href="#">לחץ/י להרשמה</a></p>
+                </header>
+                <br>
+                <div class="con">
+                    <div class="input-container">
+                        <i class="fa fa-user-circle"></i>
+
+
+                        <input type="text" placeholder="שם משתמש" name="siteUserName" required>
+                    </div>
+
+
+                    <div class="input-container">
+                        <i class="fa fa-lock"></i>
+
+                        <input type="password" placeholder="סיסמא" name="password" required>
+                    </div>
+                </div>
+                <button class="elmemtpurple-button">התחברות</button>
+
+
+            </form>
+
+
+
+        </div>
+    </div>
+
+
+    <div id="myModal" class="modal">
+        <div id="modal2-content">
+            <span class="close">&times;</span>
+
+
+            <div id="overlay2">
+                <form>
+                    <header class="head-form">
+                        <h2>הרשמה למשתמש חדש</h2>
+                        <p id="userDetails">פרטי משתמש</p>
+                    </header>
+                    <br>
+                    <div class="con2">
+                        <div class="input-container">
+                            <i class="fa fa-envelope"></i>
+
+                            <input type="email" placeholder="כתובת מייל" name="email" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-lock"></i>
+
+                            <input type="password" placeholder="סיסמא" name="password" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" placeholder="אישור סיסמא" name="passwordVerification" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-user"></i>
+
+                            <input type="text" placeholder="שם פרטי" name="name" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-users"></i>
+
+                            <input type="text" placeholder="שם משפחה" name="familyName" required>
+
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-phone"></i>
+
+                            <input type="text" placeholder="טלפון" name="phoneNum" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-map-marker"></i>
+
+                            <input type="text" placeholder="עיר מגורים" name="city" required>
+                        </div>
+                    </div>
+                    <button class="elmemtpurple-button" id="connecting">התחברות</button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <img src="/generalPictures/רקע תכנון אירוע.png" alt="" id="eventPlanningBackround">
+    <!-- קטעי תוכן -->
+
+    <div class="card">
+        <p class="number">100</p>
+        <p class="text">פריטים שאהבת</p>
+    </div>
+
+    <div class="navbar">
+        <div class="navbar-item" data-hover-img="/generalPictures/logoutW.svg">
+            <img src="/generalPictures/logout.svg" alt="Icon 1" id="logoutImg">
+            <span>התנתקות</span>
+        </div>
+        <div class="divider"></div>
+        <div class="navbar-item" data-hover-img="/generalPictures/profileW.svg">
+            <img src="/generalPictures/profile.svg" alt="Icon 2" id="user">
+            <span>משתמש</span>
+        </div>
+        <div class="divider"></div>
+        <div class="navbar-item" data-hover-img="/generalPictures/locationW.svg">
+            <img src="/generalPictures/location.svg" alt="Icon 3">
+            <span>כתובות שמורות</span>
+        </div>
+        <div class="divider"></div>
+        <div class="navbar-item" data-hover-img="/generalPictures/orderW.svg">
+            <img src="/generalPictures/order.svg" alt="Icon 4" id="orders">
+            <span>הזמנות</span>
+        </div>
+        <div class="divider"></div>
+        <div class="navbar-item" data-hover-img="/generalPictures/bellW.svg">
+            <img src="/generalPictures/bell.svg" alt="Icon 5" id="timeToday">
+            <span>זמני היום</span>
+        </div>
+        <div class="divider"></div>
+        <div class="navbar-item" data-hover-img="/generalPictures/chatW.svg">
+            <img id="allReference" src="/generalPictures/chat.svg" alt="Icon 6">
+            <span>המלצות</span>
+        </div>
+        <div class="divider"></div>
+        <div class="navbar-item" data-hover-img="/generalPictures/dashW.svg">
+            <img src="/generalPictures/dash.svg" alt="Icon 7" id="centeralBoard">
+            <span>לוח בקרה</span>
+        </div>
+    </div>
+
+    </head>
+
+
+    <div class="profile-container" style="display: none">
+        <label for="profile-picture-input">
+            <div class="profile-picture" id="profile-picture">
+                <div id="profile-section">
+                    <i class="fa fa-user fa-3x" id="default-icon" style="display: none;"></i>
+                    <img id="profile-image" src="" alt="Profile Image" style="display: none;">
+                </div>
+
+            </div>
+        </label>
+        <input type="file" id="profile-picture-input" accept="image/*" style="display: none;">
+    </div>
+    <p id="profileText" style="display: none"></p>
+    <!-- תחתית הדף -->
+    <div id="timeOfDayContainer" style="display: none;"></div>
+    <div id="currentDateContainer"></div>
+    <div id="calendarContainer" style="display: none;"></div>
+
+    <div id="allBubbles">
+
+    </div>
+
+</body>
+
+<div id="timtTodayDesign">
+
+    <script src="/Data/jquery-3.2.1.js"></script>
+    <script src="/JS/eventPlanning.js"></script>
+    <script src="/JS/cart.js"></script>
+    <script src="/JS/generalJS.js"></script>
+</div>
+
+
+
+</body>
+
+
+</html>

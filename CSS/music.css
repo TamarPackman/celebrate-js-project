@@ -1,0 +1,250 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+} */
+
+.profile-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+ body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f6e0e6, #9b84a8);
+    color: #fff;
+    text-align: right;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.whatsapp-button:hover {
+    background-color: #1EBE5B;
+}
+
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.heart-icon {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.heart-icon.loved {
+    color: red;
+}
+
+.share-icon {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    transition: transform 0.5s ease;
+}
+
+.share-icon.rotating {
+    transform: rotate(360deg);
+}
+
+#love-text, #share-text {
+    font-size: 1.2rem;
+}
+
+.animated-text {
+    overflow: hidden; /* חשוב להוסיף את זה כדי שהטקסט לא יחרוג */
+    position: relative;
+}
+
+.animated-text p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem; /* אפשר לשנות לפי הצורך */
+    line-height: 1.2;
+    margin: 0;
+}
+
+.animated-text span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.popupg {
+
+    display: none;
+    /* מוסתר כברירת מחדל */
+    position: relative;
+    z-index: 999999 !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* צבע רקע כהה עם שקיפות */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* להבטיח שהפופ-אפ יהיה מעל כל אלמנט אחר */
+}
+
+/* תוכן הפופ-אפ */
+.popupg-content {
+    position: relative;
+    z-index: 999999 !important;
+    background: linear-gradient(135deg, #d9534f 0%, #c9302c 100%);
+    /* רקע מעבר צבעים אדום כהה */
+    border-radius: 12px;
+    /* פינות מעוגלות */
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    /* צל רך */
+    width: 80%;
+    max-width: 400px;
+    /* רוחב מקסימלי */
+    animation: fadeIn 0.5s ease;
+    /* אנימציה להופעה */
+    color: white;
+    /* צבע הטקסט לבן */
+    font-family: Almoni ML v5 AAA medium;
+}
+
+
+/* עיגול עם אייקון פח אשפה */
+.remove-circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-icon {
+    font-size: 36px;
+    color: #4e2cc9;
+    /* צבע אדום לפח אשפה */
+}
+
+/* הכיתוב */
+.popupg-text {
+    font-size: 22px;
+    /* גודל הטקסט מוגדל */
+}
+
+/* אנימציה להופעה */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* כפתור סגירה */
+.close-btn {
+    position: absolute;
+    z-index: 9999999999999 !important;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    /* צבע הכפתור */
+}

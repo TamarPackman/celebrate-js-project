@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/music.css">
+   
+</head>
+
+<body>
+    <div class="profile-container">
+        <label for="profile-picture-input">
+            <div class="profile-picture" id="profile-picture">
+                <i class="fa fa-user fa-3x" id="default-icon"></i>
+                <img id="profile-image" src="" alt="Profile Image" style="display: none;">
+            </div>
+        </label>
+        <input type="file" id="profile-picture-input" accept="image/*" style="display: none;">
+    </div>
+
+
+
+    <!DOCTYPE html>
+    <html lang="he">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>כפתור וואצאפ</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- התוכן של האתר שלך -->
+
+        <!-- כפתור וואצאפ -->
+        <a href="https://wa.me/972521234567" class="whatsapp-button" target="_blank">
+            <i class="fa fa-whatsapp"></i>
+            שלח הודעה בוואצאפ
+        </a>
+
+        <!-- סוף התוכן של האתר שלך -->
+    </body>
+
+    <div class="buttons-container">
+        <div class="button love-button" onclick="toggleLove()">
+            <span id="love-text">אהבתי</span>
+            <span id="love-icon" class="heart-icon">&#9825;</span>
+        </div>
+        <div class="button share-button" onclick="shareContent()">
+            <span id="share-text">שתפו אותי</span>
+            <span id="share-icon" class="share-icon">&#8635;</span>
+        </div>
+
+    </div>
+    <div id="popup-remove" class="popupg">
+        <div class="popupg-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div class="icon-container">
+                <div class="remove-circle">
+                    <span class="remove-icon">&#128465;&#65039;</span> <!-- אייקון של פח אשפה שונה -->
+                </div>
+            </div>
+            <p class="popupg-text">מוצר זה הוסר מהעגלה</p> <!-- הכיתוב מוגדל -->
+        </div>
+    </div>
+    
+    <script src="/JS/music.js"></script>
+</body>
+
+</html>

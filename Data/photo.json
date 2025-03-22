@@ -1,0 +1,117 @@
+{
+    "products": [
+        {
+            "code": 46,
+            "catagory": "צילום",
+            "subCatagory": "הפקות צילום",
+            "name": "סטודיו אולגה – צילום סטילס ווידאו",
+            "image": [
+                "/DataPictures/photo/סטודיו אולגה1.webp",
+                "/DataPictures/photo/אולגה2.webp",
+                "/DataPictures/photo/אולגה3.webp",
+                "/DataPictures/photo/אולגה 4.webp"
+            ],
+            "phone": "0552118365",
+            "address": "נווט כל הארץ",
+            "profil": "/DataPictures/photo/סטודיו אולגה פרופיל.jpg",
+            "text": "צילום אירועים זו האומנות שלנו<br><br>ברוכים הבאים למחלקת צילום מבית סטודיו אולגה<br>מתמחים בצילום לכל אירוע גם לאירועים קטנים מגיע תמונות ברמה גבוהה<br><br>מחפשים צלם או צלמת?<br>תנו לנו לדאוג לתיעוד הטוב ביותר של היום החשוב שלכם<br><br>אצלנו תוכלו למצוא אלבומים דיגיטליים ברמה גבוהה ביותר<br>צלם וידאו, צלמת וידאו, הגדלת קנבסים וכו’<br><br>הטבע מיוחדת למזמינים דרך האתר<br>מזמינים צלם לאירוע ומקבלים צלמת לעזרת נשים חינם",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/photo/סטודיו אולגה – צילום סטילס ווידאו.webp"
+        },
+        {
+            "code": 47,
+            "catagory": "צילום",
+            "subCatagory": "הפקות צילום",
+            "name": "קונספט הפקות צילום",
+            "image": [
+                "/DataPictures/photo/קונספט1.jpeg",
+                "/DataPictures/photo/קונספט2.jpeg",
+                "/DataPictures/photo/קונספט3.jpeg",
+                "/DataPictures/photo/קונספט4.jpeg"
+            ],
+            "phone": " 0527188223",
+            "address": "נווט כל הארץ",
+            "profil": "/DataPictures/photo/פרופיל קונספט.jpg",
+            "text": "קונספט הפקות צילום<br>מקצועיות מלוטשת > חדשנות > שירות בוטיק<br><br>אנחנו דואגים למעטפת צילום לחתונה, יוקרתית ומושלמת עבורכם,<br>תוך השקעה אישית בכם לאורך כל הדרך.<br><br>החל משיחת אפיון כדי להכיר אתכם לעומק, בחירת צלמים המתאימים לאירוע,<br>ועד לאלבומים וסרט מלוטשים בדיוק בטעם שלכם.<br><br>כדי שתהיו בטוחים בחסכון בעלויות, בראש שקט בשמחה ובהתאמה מדויקת.<br><br>קישור ליצירת קשר קונספט הפקות צילום",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/photo/קונספט הפקות צילום.jpeg"
+        },
+        {
+            "code": 48,
+            "catagory": "צילום",
+            "subCatagory": "הפקות צילום",
+            "name": "מנדי שיף – הפקות צילום",
+            "image": [
+                "/DataPictures/photo/מנדי 1.jpg",
+                "/DataPictures/photo/מנדי 2.jpg",
+                "/DataPictures/photo/מנדי 4.jpeg",
+                "/DataPictures/photo/מנדי 3.jpeg",
+                "/DataPictures/photo/מנדי 5.jpeg"
+            ],
+            "phone": "0552118344",
+            "address": "הר-הרצל",
+            "profil": "/DataPictures/photo/מנדי לוגו.jpeg",
+            "text": "מנדי שיף צילום אירועים אומנותי – אנו מציעים את כל שירותי הצילום בחתונות ואירועים בסטנדרטים הגבוהים ביותר.<br><br>הנבחרת שלנו כוללת: צלמים, אנשי תאורה, מחלקה לעיצוב אלבומים,<br><br>כמו כן אנו שמים דגש על שימוש בציוד הצילום המתקדם האיכותי והעדכני ביותר.<br><br>אנו לא מתפשרים על איכות הצילום.<br><br>האלבומים אותם אנו מפיקים מתבצעים במעבדות המובילות בתחומם בארץ ובעולם.<br><br>כמו כן הצלמים שלנו פעילים מאוד בארץ ובחו”ל בכל סוגי האירועים הן בציבור החרדי והן בציבור הדתי.",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/Halls/גן הדסים.jpg"
+        },
+        {
+            "code": 49,
+            "catagory": "צילום",
+            "subCatagory": "הפקות צילום",
+            "name": "רחלי ברגר",
+            "image": [
+                "/DataPictures/photo/רחלי 1.jpg",
+                "/DataPictures/photo/רחלי 2.jpg",
+                "/DataPictures/photo/רחלי 3.jpeg",
+                "/DataPictures/photo/רחלי 4.jpeg"
+            ],
+            "phone": " 0552118657",
+            "address": "הר הצופים ירושלים",
+            "profil": "/DataPictures/photo/רחלי לוגו.jpg",
+            "text": "חלי ברגר – הפקות צילום מתקדמות לכל סוגי האירועים.<br><br>סטילס, וידאו, מגנטים, צלמים, צלמות … כל מה שתצטרכו כדי להפוך את האירוע המרגש שלכם לבלתי נשכח!<br><br>שירות מקצועי, אמין ואדיב.",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/photo/רחלי ברגר- הפקות צילום.jpg"
+        },
+        {
+            "code": 50,
+            "catagory": "צילום",
+            "subCatagory": "הפקות צילום",
+            "name": "קונספט- הפקות צילום",
+            "image": [
+                "/DataPictures/photo/קונספט 1.webp",
+                "/DataPictures/photo/קונספט 11.jpg",
+                "/DataPictures/photo/קונספט 2.jpeg",
+                "/DataPictures/photo/קונספט 3.jpg",
+                "/DataPictures/photo/קונספט 4.jpg",
+                "/DataPictures/photo/קונספט 5.jpg"
+            ],
+            "phone": " 0552118657",
+            "address": "הר הצופים ירושלים",
+            "profil": "/DataPictures/photo/קונספט.jpg",
+            "text": "קונספט הפקות צילום<br><br>מקצועיות מלוטשת &gt; חדשנות &gt; שירות בוטיק<br><br>אנחנו דואגים למעטפת צילום לחתונה, יוקרתית ומושלמת עבורכם,<br><br>תוך השקעה אישית בכם לאורך כל הדרך.<br><br>החל משיחת אפיון כדי להכיר אתכם לעומק, בחירת צלמים המתאימים לאירוע,<br><br>ועד לאלבומים וסרט מלוטשים בדיוק בטעם שלכם.<br><br>כדי שתהיו בטוחים בחסכון בעלויות, בראש שקט בשמחה ובהתאמה מדויקת.",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/photo/קונספט- הפקות צילום.jpeg"
+        },
+        {
+            "code": 51,
+            "catagory": "צילום",
+            "subCatagory": "הפקות צילום",
+            "name": "צילום וידיאו",
+            "image": [
+                "/DataPictures/photo/קונספט 1.webp",
+                "/DataPictures/photo/קונספט 11.jpg",
+                "/DataPictures/photo/קונספט 2.jpeg",
+                "/DataPictures/photo/קונספט 3.jpg",
+                "/DataPictures/photo/קונספט 4.jpg",
+                "/DataPictures/photo/קונספט 5.jpg"
+            ],
+            "phone": " 0552118657",
+            "address": "הר הצופים ירושלים",
+            "profil": "/DataPictures/photo/קונספט.jpg",
+            "text": "חלי ברגר – הפקות צילום מתקדמות לכל סוגי האירועים.<br><br>סטילס, וידאו, מגנטים, צלמים, צלמות … כל מה שתצטרכו כדי להפוך את האירוע המרגש שלכם לבלתי נשכח!<br><br>שירות מקצועי, אמין ואדיב.",
+            "heart": "<i class='fa fa-heart'></i>",
+            "backgroundPicture": "/DataPictures/photo/קונספט- הפקות צילום.jpeg"
+        }
+    ]
+}

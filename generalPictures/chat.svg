@@ -1,0 +1,11 @@
+<svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="grommet-icons:chat">
+<path id="Vector" d="M54.625 20.125H17.25M54.625 31.625H28.75M54.625 2.875H14.375C11.325 2.875 8.39994 4.0866 6.24327 6.24327C4.0866 8.39994 2.875 11.325 2.875 14.375V37.375C2.875 40.425 4.0866 43.3501 6.24327 45.5067C8.39994 47.6634 11.325 48.875 14.375 48.875H48.875L66.125 63.25V14.375C66.125 11.325 64.9134 8.39994 62.7567 6.24327C60.6001 4.0866 57.675 2.875 54.625 2.875Z" stroke="url(#paint0_linear_652_1906)" stroke-width="3" stroke-linecap="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_652_1906" x1="2.875" y1="33.0625" x2="66.125" y2="33.0625" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BE5CB6"/>
+<stop offset="1" stop-color="#211636"/>
+</linearGradient>
+</defs>
+</svg>

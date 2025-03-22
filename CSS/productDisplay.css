@@ -1,0 +1,805 @@
+body {
+
+    font-family: Almoni ML v5 AAA Medium;
+}
+
+#headerGlobalImg {
+    animation: sizeImg 1s;
+    position: absolute;
+    top: 80%;
+    margin-right: 7.4%;
+    width: 15%;
+    border-radius: 999px;
+    border: solid 0.2px;
+    color: #162536;
+    z-index: 10000;
+}
+
+
+
+#businessName {
+    position: relative;
+    z-index: 10000;
+    padding-top: 8%;
+    padding-bottom: 7%;
+    margin-top: -37.6%;
+    margin-right: 25.5%;
+    font-size: 44px;
+    color: #ffffff;
+    font-family: Heebo;
+
+
+}
+
+
+#globalText {
+    background: linear-gradient(to right, #f6e0e6, #9b84a8);
+    width: 60%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    /* Enhanced box shadow for a more stylish look */
+    border-radius: 55px;
+    color: #ffffff;
+    margin-top: 8.5%;
+    margin-right: 23%;
+    font-size: 145%;
+    line-height: 30px;
+    padding-right: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* Text shadow for added emphasis */
+
+}
+
+
+#headerGlobalImg {
+    margin-top: -21%;
+
+}
+
+.important-background {
+
+    border: solid 2px #1e0e39;
+    color: #8d1a1a;
+
+}
+
+.globalButtons {
+
+    background-color: transparent !important;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    overflow: hidden;
+    padding: 5px 20px;
+    border: none;
+    font-size: 1em;
+    border: solid 2px #ffffff;
+    margin-top: 45px;
+    margin-right: 280px;
+    border-radius: 35px;
+    box-shadow: 0 4px 6px 0 rgba(227, 214, 172, 0.55);
+
+
+}
+
+.globalButtons:hover {
+
+    background-color: white !important;
+    color: #1e0e39 !important;
+
+
+}
+
+#adress {
+    position: absolute;
+    top: 46.5%;
+    right: 14%;
+    z-index: 10000;
+}
+
+#phone {
+    position: absolute;
+    top: 46.5%;
+    right: 6.6%;
+    z-index: 10000;
+}
+
+
+#headerGlobal {
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+#headerGlobal::before {
+
+    content: '';
+    position: absolute;
+    bottom: 100;
+    top: 22.8%;
+    left: 0;
+    width: 100%;
+    height: 39%;
+    /* גובה הדרגה השחורה */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+
+
+    /* יוודא שהשכבה תהיה מאחורי התוכן */
+}
+
+
+.con3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    /* רווח בין האלמנטים */
+    margin: 0 auto;
+    max-width: 1000px;
+    /* הגבלת רוחב המרחק בין השורות */
+    padding: 0 20px;
+}
+
+.con3 .input-container {
+    flex: 1 1 calc(50% - 10px);
+    /* שתי תמונות בשורה */
+}
+
+.con3 .input-container:nth-of-type(2n) {
+    flex: 1 1 calc(50% - 10px);
+    /* שתי תמונות בשורה */
+}
+
+.con3 .input-container:nth-last-child(1) {
+    flex: 1 1 100%;
+    /* התמונה האחרונה תופס שורה שלמה */
+}
+
+.con3 input {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    border: solid 1px;
+    color: #390e0e;
+    border-radius: 5px;
+    padding-right: 40px;
+}
+
+#modal3-content {
+
+    height: 400px;
+    width: min(90vw, 700px);
+    margin: 2% auto;
+    background-color: #fefefe;
+    padding: 20px;
+    padding: 4%;
+    border: 1px solid #888;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    border-radius: 55px;
+}
+
+#turn {
+    width: 200px;
+    height: 40px;
+    margin-right: 45%;
+    font-size: 20px;
+}
+
+#reference {
+    width: 200px;
+    height: 40px;
+    margin-right: 45%;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.modal {
+    padding-top: 180px !important;
+}
+
+.con3 textarea {
+    /* color: #390e14; */
+    font-size: 16px;
+}
+
+
+
+
+.star-rating {
+    display: flex;
+    direction: rtl;
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.star-rating input:checked~label,
+.star-rating input:checked~label~label {
+    color: #f5c518;
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label {
+    color: #f5c518;
+}
+
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#allBubbles {
+    margin-top: -20%;
+}
+
+.bubble {
+    position: relative;
+
+    border-image-slice: 1;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 530px;
+    height: 130px;
+    margin-right: 10%;
+    margin-bottom: 12%;
+}
+
+.bubble img {
+    width: 130%;
+}
+
+
+.bubble::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+
+    /* המרחק מהתחתית */
+    left: 90%;
+    transform: translateX(-50%);
+    width: 0;
+    /* No width needed for a triangle */
+    height: 0;
+    /* border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid white; */
+    /* צבע השפיץ */
+}
+
+.bubble i {
+
+    color: #cccccc;
+    font-size: 31px;
+    padding-right: 6px;
+
+}
+
+.bubble p {
+    margin-top: -105%;
+    margin-right: 33%;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+.grayStar {
+    color: #ebcaa3;
+}
+
+.stars {
+    padding-right: 46%;
+    position: absolute;
+    margin-top: -106%;
+
+}
+
+
+
+@keyframes sizeImg {
+    0% {
+        width: 0%;
+
+    }
+
+
+    100% {
+        width: 15%;
+
+    }
+}
+
+
+/* styles.css */
+
+/* כלל בסיסי לתמונה */
+#aboutPictures {
+    display: block;
+    /* לוודא שהתמונה תתנהג כמו אלמנט בלוק */
+    margin: 0 auto;
+    /* מרכז את התמונה */
+    width: 150px;
+    /* הגדר את הרוחב של התמונה לפי הצורך */
+    margin-top: -130px;
+    margin-left: 80px;
+}
+
+/* כלל לקישור */
+.animated-link {
+    display: inline-block;
+    /* חשוב לשים את האנימציה על האלמנט שמכיל את התמונה */
+    text-decoration: none;
+
+    /* הסר קו תחתון מהקישור */
+}
+
+/* הגדרת האנימציה */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* כלל אנימציה לתמונה */
+#aboutPictures {
+    animation: bounce 1s infinite;
+
+    /* הבהירות של האנימציה היא 1 שניה ותתבצע אינסופית */
+}
+
+#aboutPictures {
+    position: relative;
+    z-index: 99999 !important;
+    width: 3%;
+    margin-top: -9.5%;
+}
+
+.adition {
+    color: #ebcaa3 !important;
+
+}
+
+
+.buttons-container {
+
+    position: absolute;
+    top: 51.1%;
+    right: 67%;
+    z-index: 99999 !important;
+    display: flex;
+    gap: 2rem;
+
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.heart-icon.loved {
+    color: red;
+}
+
+.heart-icon {
+    font-size: 2.3rem;
+    margin-left: 0.5rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.heart-icon:hover {
+
+    color: red;
+
+}
+
+
+.share-icon.rotating {
+    transform: rotate(360deg);
+}
+
+.share-icon {
+    font-size: 2.3rem;
+    margin-right: 0.5rem;
+    transition: transform 0.5s ease;
+    color: white;
+}
+
+.share-icon:hover {
+    color: red;
+}
+
+
+
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.whatsapp-button:hover {
+    background-color: #1EBE5B;
+}
+
+
+#love-text,
+#share-text {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Almoni ML v5 AAA Medium;
+}
+
+/* הפופ-אפ */
+.popup {
+    position: relative;
+    z-index: 9999999999999 !important;
+    display: none;
+    /* מוסתר כברירת מחדל */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* צבע רקע כהה עם שקיפות */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* להבטיח שהפופ-אפ יהיה מעל כל אלמנט אחר */
+}
+
+/* תוכן הפופ-אפ */
+.popup-content {
+    position: relative;
+    z-index: 9999999999999 !important;
+    background: linear-gradient(to right, #f6e0e6, #9b84a8);
+    border-radius: 12px;
+    /* פינות מעוגלות */
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+    /* צל רך */
+    width: 80%;
+    max-width: 400px;
+    /* רוחב מקסימלי */
+    animation: fadeIn 0.5s ease;
+    /* אנימציה להופעה */
+    color: white;
+    /* צבע הטקסט לבן */
+    font-family: Arial, sans-serif;
+}
+
+/* כפתור סגירה */
+.close-btn {
+    position: absolute;
+    z-index: 9999999999999 !important;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    /* צבע הכפתור */
+}
+
+/* מיכל אייקון */
+.icon-container {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 9999999999999 !important;
+}
+
+/* עיגול עם וי */
+.checkmark-circle {
+    display: inline-block;
+    position: relative;
+    z-index: 99999999999999999999 !important;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkmark {
+    font-size: 36px;
+    color: #4caf50;
+    /* צבע ירוק לוי */
+}
+
+.popup-content p {
+
+    color: #000000;
+    font-family: 'Almoni ML v5 AAA Medium', Arial, sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8),
+        /* צל רך לבן */
+        4px 4px 10px rgba(255, 255, 255, 0.5);
+    /* צל נוסף לעומק */
+
+}
+
+
+.error-circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-mark {
+    font-size: 36px;
+    color: #98093b;
+    /* צבע אדום לאיקס */
+}
+
+
+/* אנימציה להופעה */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.exclamation-circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exclamation-mark {
+    font-size: 36px;
+    color: #ff6600;
+    /* צבע כתום לסימן קריאה */
+}
+
+
+
+
+.popupg {
+
+    display: none;
+    /* מוסתר כברירת מחדל */
+    position: relative;
+    z-index: 999999 !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1800%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* צבע רקע כהה עם שקיפות */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* להבטיח שהפופ-אפ יהיה מעל כל אלמנט אחר */
+}
+
+/* תוכן הפופ-אפ */
+.popupg-content {
+    position: relative;
+    z-index: 999999 !important;
+    background: linear-gradient(135deg, #d9534f 0%, #c9302c 100%);
+    /* רקע מעבר צבעים אדום כהה */
+    border-radius: 12px;
+    /* פינות מעוגלות */
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    /* צל רך */
+    width: 80%;
+    max-width: 400px;
+    /* רוחב מקסימלי */
+    animation: fadeIn 0.5s ease;
+    /* אנימציה להופעה */
+    color: white;
+    /* צבע הטקסט לבן */
+    font-family: Almoni ML v5 AAA medium;
+}
+
+
+/* עיגול עם אייקון פח אשפה */
+.remove-circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-icon {
+    font-size: 36px;
+    color: #4e2cc9;
+    /* צבע אדום לפח אשפה */
+}
+
+/* הכיתוב */
+.popupg-text {
+    font-size: 22px;
+    /* גודל הטקסט מוגדל */
+}
+
+/* אנימציה להופעה */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* כפתור סגירה */
+.close-btn {
+    position: absolute;
+    z-index: 9999999999999 !important;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    /* צבע הכפתור */
+}
+
+@media (max-width: 700px) and (min-width: 390px) {
+    #headerGlobal {
+        margin-top: -650px;
+    }
+
+    #headerGlobal::before {
+        /* margin-top: -228px; */
+        margin-top: -243px;
+    }
+
+    #headerGlobalImg {
+        margin-top: -400px !important;
+    }
+
+    #adress {
+        margin-right: 140px;
+        margin-top: -160px
+    }
+
+    #phone {
+        margin-right: 70px;
+        margin-top: -160px
+    }
+
+    .bubble img {
+        width: 400px;
+    }
+
+    .bubble i {
+        margin-top: 200px;
+
+    }
+
+    .stars {
+        margin-right: -80px;
+    }
+
+.buttons-container{
+    margin-top: -220px;
+    font-size: 12px;
+}
+#love-text{
+    font-size: 12px;
+}
+#share-text{
+    font-size: 12px;
+}
+#aboutPictures{
+    display: none;
+}
+
+
+}  
+
+
+.wishlist-prompt {
+    z-index: 999999 !important;
+    display: block; /* בהתחלה מוסתר */
+    position: fixed;
+    bottom: 580px;
+    right: 600px;
+    background: linear-gradient(45deg, #ff6b6b, #ff4757);
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    animation: fadeIn2 0.5s ease-out, fadeOut2 0.5s ease-out 3.5s;
+}
+
+.wishlist-icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.wishlist-text {
+    font-size: 16px;
+}
+
+@keyframes fadeIn2 {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut2 {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(20px); }
+}

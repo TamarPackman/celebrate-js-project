@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+</head>
+<link rel="stylesheet" href="/CSS/header.css">
+<link rel="stylesheet" href="/CSS/IndexStyle.css">
+<link rel="stylesheet" href="/CSS/globalProducts.css">
+<link rel="stylesheet" href="/CSS/about.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<body>
+
+    <body>
+        <!-- כותרת עליונה -->
+        <h1 id="guest">שלום אורח</h1>
+        <div id="logo"><a href="./Index.html"><img src="/headerArray/logo.png" alt="" width="265px"></a></div>
+        <header>
+            <button id="login" class="elementor-button-login">התחברות</button>
+            <button id="bag"><img src="/headerArray/עגלת קניות.png" width="120px"></button>
+            <button id="search" class="elementor-button-login">חיפוש</button>
+
+            <nav>
+                <div class="nav-item">
+                    <a href="/HTML/about.html">אודותינו</a>
+                    <div class="submenu">
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#">מקום ארוע</a>
+                    <div class="submenu">
+                        <a href="#">אולמות חתונה</a>
+                        <a href="#">גני אירועים</a>
+                        <a href="#">קמפוסים</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#">טיפוח ויופי</a>
+                    <div class="submenu">
+                        <a href="#">שמלות ערב</a>
+                        <a href="#">שמלות כלה</a>
+                        <a href="#">מאפרות</a>
+                        <a href="#">מסרקות</a>
+                        <a href="#">קוסמטיקה</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#">מוזיקה</a>
+                    <div class="submenu">
+                        <a href="#">DJ לחתונה</a>
+                        <a href="#">זמרים</a>
+                        <a href="#">תזמורת</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#">צילום</a>
+                    <div class="submenu">
+                        <a href="#">הפקות צילום</a>
+                        <a href="#">צילום וידיאו</a>
+                        <a href="#">צילום סטילס</a>
+                        <a href="#">צילומי בוק</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#">קייטרינג ובר</a>
+                    <div class="submenu">
+                        <a href="#">קייטרינג בשרי</a>
+                        <a href="#">קייטרינג חלבי</a>
+                        <a href="#">מגשי אירוח</a>
+                        <a href="#">קינוחים/בר מתוקים</a>
+                        <a href="#">יינות ואלכוהול</a>
+                        <a href="#">עיצובי פירות</a>
+
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+
+
+
+
+            <div id="myModal" class="modal">
+                <div id="modal-content">
+                    <span class="close">&times;</span>
+
+                    <form>
+
+                        <header class="head-form">
+                            <h2>התחבר/י למשתמש שלך</h2>
+                            <p>אין לך משתמש? <a id="clickToLogIn" href="#">לחץ/י להרשמה</a></p>
+                        </header>
+                        <br>
+                        <div class="con">
+                            <div class="input-container">
+                                <i class="fa fa-user-circle"></i>
+
+
+                                <input type="text" placeholder="שם משתמש" name="siteUserName" required>
+                            </div>
+
+
+                            <div class="input-container">
+                                <i class="fa fa-lock"></i>
+
+                                <input type="password" placeholder="סיסמא" name="password" required>
+                            </div>
+                        </div>
+                        <button class="elmemtpurple-button">התחברות</button>
+
+
+                    </form>
+
+
+
+                </div>
+            </div>
+
+
+            <div id="myModal" class="modal">
+                <div id="modal2-content">
+                    <span class="close">&times;</span>
+
+
+                    <div id="overlay2">
+                        <form>
+                            <header class="head-form">
+                                <h2>הרשמה למשתמש חדש</h2>
+                                <p>פרטי משתמש</p>
+                            </header>
+                            <br>
+                            <div class="con2">
+                                <div class="input-container">
+                                    <i class="fa fa-envelope"></i>
+
+                                    <input type="email" placeholder="כתובת מייל" name="email" required>
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-lock"></i>
+
+                                    <input type="password" placeholder="סיסמא" name="password" required>
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-lock"></i>
+                                    <input type="password" placeholder="אישור סיסמא" name="passwordVerification"
+                                        required>
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-user"></i>
+
+                                    <input type="text" placeholder="שם פרטי" name="name" required>
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-users"></i>
+
+                                    <input type="text" placeholder="שם משפחה" name="familyName" required>
+
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-phone"></i>
+
+                                    <input type="text" placeholder="טלפון" name="phoneNum" required>
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-map-marker"></i>
+
+                                    <input type="text" placeholder="עיר מגורים" name="city" required>
+                                </div>
+                            </div>
+                            <button class="elmemtpurple-button" id="connecting">התחברות</button>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="contentabout">
+                <h2>סלברייט אתר חדשני במגזר החרדי לסגירת אירוע, ברגוע!</h2>
+                <p id="firstP">
+                    <br> פלטפורמה המעניקה לכלות ובעלי אירועים תקופת התארגנות קלה, נעימה ורגועה <br>
+                    תוך כדי חסכון של זמן וכסף באמצעות מידע רלוונטי, נגיש ועדכני
+                </p>
+                <h1>ככה מתחיל אירוע:</h1>
+                <p id="secondP">תגיד, כמה אתה לוקח לאירוע?<br>
+                    מה המחיר כולל?<br>
+                    אהמ... אפשר לראות דוגמאות?<br>
+                    יש אופציה להגיע עד הבית?<br>
+                    אירוסין? חתונה? בר/ת מצוה? ברית? מסיבה? אירוע חגיגי אחר?<br>
+                    כל כך הרבה נותני שירות מרכיבים את האירוע שלך<br>
+                    כל פרט דורש ים של טלפונים לבירור, תקשורת, משא ומתן,<br>
+                    התלבטות ונתונים… אנחנו בסלברייט מכירים את השטח<br>
+                    שמענו אינספור עדויות מבעלי אירועים שנפלו בפח של ספקים לא אמינים,<br>
+                    ויצאו מהאירוע מאוכזבים אחרי שירות גרוע ותוצר לא מספק<br>
+                    איך אפשר לדעת מי הנותן שירות הכי טוב בשבילך?
+                    והאם הוא אכן אמין ומתאים לאירוע המרגש בחייך?</p>
+            </div>
+
+            <div id="contentabout2">
+                <h2>טוב שיש את סלברייט</h2>
+                <p>אנחנו מאמינים שהפקת האירוע שלך יכולה וצריכה להיות קלה יותר, לכן הקמנו פלטפורמה<br>
+                    דיגיטלית מהפכנית המבוססת על מאגר עצום ומגוון של כל נותני השירותים לאירוע במקום אחד. <br>
+
+                    בסלברייט תמצאו בנוחות ובמהירות את כל המידע הרלוונטי על נותני השירות המבוקשים. תוכלו <br>
+                    להשוות נתונים בין ספקים, לבחור מתוך רוגע, ולחסוך הרבה טלפונים, זמן, כסף וכאבי ראש. <br>
+
+                    אנחנו מתחייבים להכניס לאתר כל חוות דעת, חיובית או שלילית על נותן השירות, כדי שתהיו <br>
+                    רגועים שעשיתם את הבחירה הנכונה ביותר לאירוע שלכם. <br>
+
+                    כי חשוב לנו לספק לכם מידע <br>
+                    אמין, עדכני ויעיל. <br>
+
+                </p>
+
+                <h1>סגרנו?</h1>
+            </div>
+
+            <div class="footer">
+                <footer>
+                    <div class="footer-container">
+                        <div class="logo">
+                            <img src="/headerArray/logo.png" alt="Celebrate Logo">
+                        </div>
+                        <div class="footer-section">
+                            <h3>נותני שירות</h3>
+                            <ul id="footerMenu">
+                                <li><a href="#">מקום ארוע</a></li>
+                                <li><a href="#">טיפוח ויופי</a></li>
+                                <li><a href="#">מוזיקה</a></li>
+                                <li><a href="#">צילום</a></li>
+                                <li><a href="#">קייטרינג ובר</a></li>
+                            </ul>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://api.whatsapp.com/send?phone=97229955591"><i
+                                        class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li><a href="https://api.whatsapp.com/send?phone=97229955591"><i
+                                        class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li><a href="https://api.whatsapp.com/send?phone=97229955591"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                        <div class="footer-section follow-us"></div>
+                    </div>
+                </footer>
+            </div> <a href="https://api.whatsapp.com/send?phone=97229955591"><img src="/generalPictures/Whatsapp.png"
+                    class="watzapp"></a>
+            </a>
+            <script src="/JS/cart.js"></script>
+            <script src="/JS/generalJS.js"></script>
+    </body>
+
+</html>
